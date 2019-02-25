@@ -1,0 +1,212 @@
+#+OPTIONS: ':nil *:t -:t ::t <:t H:3 \n:nil ^:t arch:headline author:t
+#+OPTIONS: broken-links:nil c:nil creator:nil d:(not "LOGBOOK") date:t e:t
+#+OPTIONS: email:nil f:t inline:t num:t p:nil pri:nil prop:nil stat:t tags:t
+#+OPTIONS: tasks:t tex:t timestamp:t title:t toc:t todo:t |:t
+#+TITLE: Paris Tango: Development Journal
+#+AUTHOR: Sacha El Masry
+#+EMAIL: sacha@devilray.me
+#+LANGUAGE: en
+#+SELECT_TAGS: export
+#+EXCLUDE_TAGS: noexport
+#+CREATOR: Emacs 25.3.1 (Org mode 9.1.6)
+#+LATEX_CLASS: devilray-org-article
+#+LATEX_CLASS_OPTIONS:
+#+LATEX_HEADER:
+#+LATEX_HEADER_EXTRA:
+#+DESCRIPTION:
+#+KEYWORDS:
+#+SUBTITLE:
+#+LATEX_COMPILER: pdflatex
+#+DATE: \today
+
+* Project Summary
+  :LOGBOOK:
+  CLOCK: [2019-01-12 Sat 12:00]--[2019-01-12 Sat 13:01] =>  1:01
+  :END:
+
+This project sets out to modernise the current, static, Paris Tango website,
+originally designed by me in 2008. Since then many things have changed: desktop
+programs allowing visual editing of the static code have been dropped and are no
+longer usable. Smartphones and tablets have become the norm, and now demand a
+new level of targeted development to ensure not only that the website displays
+correctly to mobile users, but also that it is appealing to use, and that
+visitors use it for its inteded purpose, finding out about tango events and
+booking them. At the same time, and no less driven by mobile devices and their
+variable connection speeds to the internet, images and videos now have to be
+given special treatment, optimising each media asset to load as quickly as
+possible on a visitor's device. Also, there has been a complete shift on the
+internet to encrypted communications, so that contact forms can't be /listened
+to/ as they are submitted by a visitor and sent to the event organiser. To do
+this, all modern websites now need a TLS (formerly known as SSL) certificate.
+
+All these changes, and a few besides, are now carefully watched by Google, whose
+directory will ruthlessly down-rank any website not matching all these criteria,
+which is ultimately disastrous for new business, as it makes it less likely that
+Paris Tango will be discovered by a random search.
+
+The aim of this project is to make it easy for the site's administrator to
+easily update content, without needing to hire a web designer every time she
+needs to, to automate asset optimisation, to make it effortless to obtain and
+renew TLS certificates, and to remove any further need to worry about website
+hosting, concentrating only on the content.
+
+* Preparation
+
+** Requirements-gathering
+   :LOGBOOK:
+   CLOCK: [2018-12-06 Thu 19:30]--[2018-12-06 Thu 21:30] =>  2:00
+   :END:
+
+** Collecting necessary technical information
+   :LOGBOOK:
+   CLOCK: [2018-12-10 Mon 15:10]--[2018-12-10 Mon 15:50] =>  0:40
+   CLOCK: [2018-12-06 Thu 21:30]--[2018-12-06 Thu 22:00] =>  0:30
+   :END:
+
+** Obtaining all assets
+   :LOGBOOK:
+   CLOCK: [2019-02-25 Mon 16:18]--[2019-02-25 Mon 16:48] =>  0:30
+   CLOCK: [2019-02-12 Tue 02:26]--[2019-02-12 Tue 02:41] =>  0:15
+   CLOCK: [2019-02-11 Mon 19:51]--[2019-02-11 Mon 20:08] =>  0:17
+   CLOCK: [2019-02-10 Sun 09:27]--[2019-02-10 Sun 09:35] =>  0:08
+   CLOCK: [2018-12-17 Mon 21:00]--[2018-12-17 Mon 22:00] =>  1:00
+   :END:
+
+To build a completely new website, we need to use a completely new set of
+images; in the process of first developing the site, it was enough to get images
+(photos, newspaper and magazine scans) with a resolution of up to 1024 pixels,
+as all visitors would browse the site from their home desktop or mobile laptop,
+using Internet Explorer, Firefox, Safari and Opera as browsers.
+
+Since then, iPhones and all the other smartphones became popular, and their use
+now dwarfs the number of visits from desktop and laptop computers, as well as
+tablets, which also didn't exist at that time. All images now have to be made
+/responsive/, so that each device and browser only download the quality of image
+that they need. For example, a low-end smartphone on a slow 3G connection will
+download a low resolution version of an image, while a high-end tablet on a 4G
+or WiFi connection will download a very high resolution image, for the site to
+present well. This makes it necessary to start with very high resolution imagery
+(1600 pixels and above), /and/ to provide that same image in multiple
+resolutions to satisfy a very wide range of devices which people will be using
+to visit the site.
+
+With this limitation, it is no longer possible to use images from the first
+site; even in that period it was important to select a target resolution and to
+optimise the image. In the process of optimisation and resizing, the image is
+further compressed, losing detail in the process. So, for any images which are
+to be reused, it is important to go back to the highest-quality original and
+prepare it for use, again, or to select a better, newer and higher-resolution
+image instead.
+
+Finally, one of the design decisions was to make the new site more graphical and
+less text-heavy. With that in mind, Brigitte and I---as well as Conny---went
+through all photos accumulated over the intervening years and events to find a
+new set of all images that can be used both in generic, non-specific settings to
+add atmosphere to the website, as well as images of specific events whose
+presence is going to be kept up to provide /history/ and artistic merit.
+
+** Creation of all necessary service provider accounts
+   :LOGBOOK:
+   CLOCK: [2018-12-18 Tue 21:00]--[2018-12-18 Tue 22:10] =>  1:10
+   :END:
+
+* Building the Site
+
+** Preparation of new website repository
+   :LOGBOOK:
+   CLOCK: [2018-12-19 Wed 20:19]--[2018-12-19 Wed 21:19] =>  1:00
+   :END:
+
+
+** Migration of existing content to new platform
+   :LOGBOOK:
+   CLOCK: [2019-02-25 Mon 16:50]--[2019-02-25 Mon 17:21] =>  0:31
+   CLOCK: [2019-02-13 Wed 19:13]--[2019-02-13 Wed 20:02] =>  0:49
+   CLOCK: [2019-02-13 Wed 17:56]--[2019-02-13 Wed 18:50] =>  0:54
+   CLOCK: [2019-01-12 Sat 14:20]--[2019-01-12 Sat 15:32] =>  1:12
+   :END:
+
+In this stage, all the content from the legacy site is copied from the existing,
+legacy website to the new Hugo-based one. All pages are recreated, and any
+/custom/ content, events in our case, are modelled and built as /fields/ in the
+site generator.
+
+
+** Crafting a new look for the web site
+
+*** Selecting and installing a theme
+   :LOGBOOK:
+   CLOCK: [2019-02-11 Mon 13:03]--[2019-02-11 Mon 13:20] =>  0:17
+   CLOCK: [2019-02-11 Mon 11:59]--[2019-02-11 Mon 12:47] =>  0:48
+   CLOCK: [2019-01-12 Sat 17:00]--[2019-01-12 Sat 18:45] =>  1:45
+   :END:
+
+To keep development costs down, instead of designing a fully custom them, we
+will make use of one of the existing, provided, /[[https://themes.gohugo.io/aether/][themes]]/ for Hugo: [[https://themes.gohugo.io/forty/][Forty]], and customise
+that to a limited extent. Forty was chosen out of a possible further choice of
+[[https://themes.gohugo.io/hugo-tracks-theme/][Tracks]] and [[https://themes.gohugo.io/aether/][Aether]]. Aether is a very elegant and beautiful theme, but it is
+primarily targeted at blogs, which may later make it harder to customise for
+general purpose websites. While Tracks is also very good, Forty just seems to be
+both more recently maintained, and more generally flexible for generic website
+use.
+
+*** Customising the base theme
+    :LOGBOOK:
+    CLOCK: [2019-02-25 Mon 17:21]--[2019-02-25 Mon 18:56] =>  1:35
+    CLOCK: [2019-02-13 Wed 22:46]--[2019-02-13 Wed 23:33] =>  0:47
+    CLOCK: [2019-02-13 Wed 20:37]--[2019-02-13 Wed 21:05] =>  0:28
+    CLOCK: [2019-02-12 Tue 02:42]--[2019-02-12 Tue 02:45] =>  0:03
+    CLOCK: [2019-02-11 Mon 21:38]--[2019-02-11 Mon 21:50] =>  0:12
+    CLOCK: [2019-02-11 Mon 20:55]--[2019-02-11 Mon 21:27] =>  0:32
+    :END:
+
+Forty, the theme we're basing the entire look of the new site on, at least in
+early 2019, carries its own developer's opinions which show up as aesthetic
+choices across the theme. While this theme is elegant and looks good, it's not
+desirable to leave it as is; Paris Tango has its own established look and feel,
+and it will not benefit the business to use the theme and look like countless
+other websites also using it. Thus, the theme needs to be customised, at least
+superficially, to give it more of the previous, but modernised, /Paris Tango/
+look.
+
+To start with, the biggest graphical element on the site is the image of the
+/burning/ orange curtains. Forty expects this image to be called =banner.jpg=
+and placed in the =static/img= folder. As whatever image is placed in the top
+banner is likely to have distracting elements, vivid colours and many changes of
+contrast which will make the overlay text difficult to read, an overlay is used
+to dampen the image, to reduce its contrasts. Forty comes pre-built with a
+blue-tinted overlay, which has to change to better hew to the orange hues of the
+website. My starting point is to use a more complementary colour for the
+overlay, to fit the orange theme, and to make the background image more vivid
+while at the same time reducing its contrast. To this end, I've chosen the
+[[https://www.pantone.com/color-intelligence/color-of-the-year/color-of-the-year-2019][Pantone colour of the year 2019]], /[[https://www.pantone.com/color-finder/16-1546-TPX][Living Coral (16-1546)]]/, with a peachy-orange
+hue (RGB: 250, 114, 104 | Hex: FA7268), with an opacity of 0.5 to hide certain
+dull details present in the image.
+
+* Deploying the New Website 
+  :LOGBOOK:
+  CLOCK: [2019-02-25 Mon 20:01]
+  :END:
+
+
+* Time Log
+
+#+BEGIN: clocktable :maxlevel 3 :scope file
+#+CAPTION: Clock summary at [2019-02-25 Mon 18:56]
+| Headline                                    |    Time |      |      |
+|---------------------------------------------+---------+------+------|
+| *Total time*                                | *18:24* |      |      |
+|---------------------------------------------+---------+------+------|
+| Project Summary                             |    1:01 |      |      |
+| Preparation                                 |    6:30 |      |      |
+| \_  Requirements-gathering                  |         | 2:00 |      |
+| \_  Collecting necessary technical...       |         | 1:10 |      |
+| \_  Obtaining all assets                    |         | 2:10 |      |
+| \_  Creation of all necessary service...    |         | 1:10 |      |
+| Building the Site                           |   10:53 |      |      |
+| \_  Preparation of new website repository   |         | 1:00 |      |
+| \_  Migration of existing content to new... |         | 3:26 |      |
+| \_  Crafting a new look for the web site    |         | 6:27 |      |
+| \_    Selecting and installing a theme      |         |      | 2:50 |
+| \_    Customising the base theme            |         |      | 3:37 |
+#+END:

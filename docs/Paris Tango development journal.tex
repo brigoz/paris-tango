@@ -1,0 +1,190 @@
+% Created 2019-02-12 Tue 02:45
+% Intended LaTeX compiler: pdflatex
+\documentclass{article}
+               \usepackage{hyperref}
+               \usepackage{fontspec}
+               \usepackage{graphicx}
+               \usepackage{longtable}
+               \defaultfontfeatures{Mapping=tex-text}
+               \setromanfont{Calluna Light}
+               \setromanfont [BoldFont={Calluna Bold},
+                               ItalicFont={Calluna Italic}]{Calluna Light}
+               \setsansfont{Calluna Sans}
+               \setmonofont[Scale=0.98]{Anonymous Pro}
+               \usepackage{geometry}
+               \geometry{a4paper, textwidth=6.5in, textheight=10in,
+                                   marginparsep=7pt, marginparwidth=.6in}
+               \pagestyle{empty}
+               \linespread{1.135}
+               \title{}
+\author{Sacha El Masry}
+\date{\today}
+\title{Paris Tango: Development Journal}
+\hypersetup{
+ pdfauthor={Sacha El Masry},
+ pdftitle={Paris Tango: Development Journal},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={Emacs 25.3.1 (Org mode 9.1.6)}, 
+ pdflang={English}}
+\begin{document}
+
+\maketitle
+\tableofcontents
+
+
+\section{Project Summary}
+\label{sec:org6c6ee31}
+This project sets out to modernise the current, static, Paris Tango website,
+originally designed by me in 2008. Since then many things have changed: desktop
+programs allowing visual editing of the static code have been dropped and are no
+longer usable. Smartphones and tablets have become the norm, and now demand a
+new level of targeted development to ensure not only that the website displays
+correctly to mobile users, but also that it is appealing to use, and that
+visitors use it for its inteded purpose, finding out about tango events and
+booking them. At the same time, and no less driven by mobile devices and their
+variable connection speeds to the internet, images and videos now have to be
+given special treatment, optimising each media asset to load as quickly as
+possible on a visitor's device. Also, there has been a complete shift on the
+internet to encrypted communications, so that contact forms can't be \emph{listened
+to} as they are submitted by a visitor and sent to the event organiser. To do
+this, all modern websites now need a TLS (formerly known as SSL) certificate.
+
+All these changes, and a few besides, are now carefully watched by Google, whose
+directory will ruthlessly down-rank any website not matching all these criteria,
+which is ultimately disastrous for new business, as it makes it less likely that
+Paris Tango will be discovered by a random search.
+
+The aim of this project is to make it easy for the site's administrator to
+easily update content, without needing to hire a web designer every time she
+needs to, to automate asset optimisation, to make it effortless to obtain and
+renew TLS certificates, and to remove any further need to worry about website
+hosting, concentrating only on the content.
+
+\section{Preparation}
+\label{sec:org0216d56}
+
+\subsection{Requirements-gathering}
+\label{sec:org75ee063}
+
+\subsection{Collecting necessary technical information}
+\label{sec:org942ed9c}
+
+\subsection{Obtaining all assets}
+\label{sec:orgef87666}
+To build a completely new website, we need to use a completely new set of
+images; in the process of first developing the site, it was enough to get images
+(photos, newspaper and magazine scans) with a resolution of up to 1024 pixels,
+as all visitors would browse the site from their home desktop or mobile laptop,
+using Internet Explorer, Firefox, Safari and Opera as browsers.
+
+Since then, iPhones and all the other smartphones became popular, and their use
+now dwarfs the number of visits from desktop and laptop computers, as well as
+tablets, which also didn't exist at that time. All images now have to be made
+\emph{responsive}, so that each device and browser only download the quality of image
+that they need. For example, a low-end smartphone on a slow 3G connection will
+download a low resolution version of an image, while a high-end tablet on a 4G
+or WiFi connection will download a very high resolution image, for the site to
+present well. This makes it necessary to start with very high resolution imagery
+(1600 pixels and above), \emph{and} to provide that same image in multiple
+resolutions to satisfy a very wide range of devices which people will be using
+to visit the site.
+
+With this limitation, it is no longer possible to use images from the first
+site; even in that period it was important to select a target resolution and to
+optimise the image. In the process of optimisation and resizing, the image is
+further compressed, losing detail in the process. So, for any images which are
+to be reused, it is important to go back to the highest-quality original and
+prepare it for use, again, or to select a better, newer and higher-resolution
+image instead.
+
+Finally, one of the design decisions was to make the new site more graphical and
+less text-heavy. With that in mind, Brigitte and I---as well as Conny---went
+through all photos accumulated over the intervening years and events to find a
+new set of all images that can be used both in generic, non-specific settings to
+add atmosphere to the website, as well as images of specific events whose
+presence is going to be kept up to provide \emph{history} and artistic merit.
+
+\subsection{Creation of all necessary service provider accounts}
+\label{sec:orgb661e38}
+
+\section{Building the Site}
+\label{sec:org7124ad8}
+
+\subsection{Preparation of new website repository}
+\label{sec:org0ddd042}
+
+
+\subsection{Migration of existing content to new platform}
+\label{sec:orgdf4a8a0}
+In this stage, all the content from the legacy site is copied from the existing,
+legacy website to the new Hugo-based one. All pages are recreated, and any
+\emph{custom} content, events in our case, are modelled and built as \emph{fields} in the
+site generator.
+
+
+\subsection{Crafting a new look for the web site}
+\label{sec:org9e5e51e}
+
+\subsubsection{Selecting and installing a theme}
+\label{sec:org7f8f946}
+To keep development costs down, instead of designing a fully custom them, we
+will make use of one of the existing, provided, \emph{\href{https://themes.gohugo.io/aether/}{themes}} for Hugo: \href{https://themes.gohugo.io/forty/}{Forty}, and customise
+that to a limited extent. Forty was chosen out of a possible further choice of
+\href{https://themes.gohugo.io/hugo-tracks-theme/}{Tracks} and \href{https://themes.gohugo.io/aether/}{Aether}. Aether is a very elegant and beautiful theme, but it is
+primarily targeted at blogs, which may later make it harder to customise for
+general purpose websites. While Tracks is also very good, Forty just seems to be
+both more recently maintained, and more generally flexible for generic website
+use.
+
+\subsubsection{Customising the base theme}
+\label{sec:orgf3cd37b}
+Forty, the theme we're basing the entire look of the new site on, at least in
+early 2019, carries its own developer's opinions which show up as aesthetic
+choices across the theme. While this theme is elegant and looks good, it's not
+desirable to leave it as is; Paris Tango has its own established look and feel,
+and it will not benefit the business to use the theme and look like countless
+other websites also using it. Thus, the theme needs to be customised, at least
+superficially, to give it more of the previous, but modernised, \emph{Paris Tango}
+look.
+
+To start with, the biggest graphical element on the site is the image of the
+\emph{burning} orange curtains. Forty expects this image to be called \texttt{banner.jpg}
+and placed in the \texttt{static/img} folder. As whatever image is placed in the top
+banner is likely to have distracting elements, vivid colours and many changes of
+contrast which will make the overlay text difficult to read, an overlay is used
+to dampen the image, to reduce its contrasts. Forty comes pre-built with a
+blue-tinted overlay, which has to change to better hew to the orange hues of the
+website. My starting point is to use a more complementary colour for the
+overlay, to fit the orange theme, and to make the background image more vivid
+while at the same time reducing its contrast. To this end, I've chosen the
+Pantone colour of the year (2019), \emph{Living Coral}, with a peachy-orange hue
+(RGB: 250, 114, 104 | Hex: FA7268), with an opacity of 0.5 to hide certain dull
+details present in the image.
+
+\section{Time Log}
+\label{sec:org3c3927a}
+
+\begin{table}[htbp]
+\caption{Clock summary at \textit{[2019-02-12 Tue 02:45]}}
+\centering
+\begin{tabular}{lrrl}
+Headline & Time &  & \\
+\hline
+\textbf{Total time} & \textbf{12:50} &  & \\
+\hline
+Project Summary & 1:01 &  & \\
+Preparation & 6:00 &  & \\
+\hspace*{1.0em}Requirements-gathering &  & 2:00 & \\
+\hspace*{1.0em}Collecting necessary technical\ldots{} &  & 1:10 & \\
+\hspace*{1.0em}Obtaining all assets &  & 1:40 & \\
+\hspace*{1.0em}Creation of all necessary service\ldots{} &  & 1:10 & \\
+Building the Site & 5:49 &  & \\
+\hspace*{1.0em}Preparation of new website repository &  & 1:00 & \\
+\hspace*{1.0em}Migration of existing content to new\ldots{} &  & 1:12 & \\
+\hspace*{1.0em}Crafting a new look for the web site &  & 3:37 & \\
+\hspace*{2.0em}Selecting and installing a theme &  &  & 2:50\\
+\hspace*{2.0em}Customising the base theme &  &  & 0:47\\
+\end{tabular}
+\end{table}
+\end{document}

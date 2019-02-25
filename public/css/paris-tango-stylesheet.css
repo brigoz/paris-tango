@@ -1,0 +1,15 @@
+/* Paris Tango 2019 Hugo theme, Sacha El Masry, February 2019
+
+   Built on Forty theme (https://themes.gohugo.io/forty/)
+   release 2018-10-09
+
+   This file consists of custom CSS targeted at overriding the
+   forty theme to match the aesthetics of paris-tango.co.uk,
+   originally established in 2008, with contributions from
+   Brigitte Ozarovsky and Conny Jude.
+*/
+
+#banner::after {
+    background-color: #FA7268;
+    opacity: 0.5;
+}

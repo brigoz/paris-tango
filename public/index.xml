@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Paris Tango</title>
+    <link>http://example.org/</link>
+    <description>Recent content on Paris Tango</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Sat, 12 Jan 2019 14:30:56 +0000</lastBuildDate>
+    
+	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Contact Us</title>
+      <link>http://example.org/contact-us/</link>
+      <pubDate>Sat, 12 Jan 2019 15:08:26 +0000</pubDate>
+      
+      <guid>http://example.org/contact-us/</guid>
+      <description>Please get in touch with me with any questions you may have, I will get back to you quickly
+Organisers who would like to invite my clients to teach and/or perform at their Milonga, festivals or events should contact Brigitte
+By email: brigitte@paris-tango.co.uk
+On Facebook - Tango with Brigitte (Paris-Tango)
+And/or by telephone: Mobile: +44 (0)7818 808 711</description>
+    </item>
+    
+    <item>
+      <title>About Us</title>
+      <link>http://example.org/about-us/</link>
+      <pubDate>Sat, 12 Jan 2019 14:33:19 +0000</pubDate>
+      
+      <guid>http://example.org/about-us/</guid>
+      <description>About Brigitte Born and educated in Paris, I studied ballet and piano from the age of 5. Music and dance have always been part of my life. As a child, I joined the Roland Pilain troupe performing regularly with the well known &amp;ldquo;Théatre du Petit Monde&amp;rdquo;. My Russian father played the violin and I grew up with the sounds of tzigane music and traditional folklore.
+I fell in love with Argentine Tango, first the music then the dance, when seeing the show &amp;ldquo;Forever Tango&amp;rdquo;.</description>
+    </item>
+    
+  </channel>
+</rss>
