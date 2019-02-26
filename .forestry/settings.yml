@@ -14,10 +14,10 @@ sections:
   label: Pages
   create: all
   match: "*"
-upload_dir: image/uploads
-public_path: image/uploads
+upload_dir: image/upload
+public_path: image/upload
 front_matter_path: ''
-use_front_matter_path: false
+use_front_matter_path: true
 file_template: ":filename:"
 build:
   preview_command: hugo -E -F -D -b $DEPLOY_URL -d public
