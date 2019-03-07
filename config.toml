@@ -1,5 +1,5 @@
 # Site settings
-baseURL = "https://vibrant-ptolemy-435b72.netlify.com/"
+baseURL = "https://paris-tango.netlify.com/"
 languageCode = "en-gb"
 title = "Paris Tango"
 theme = "forty"

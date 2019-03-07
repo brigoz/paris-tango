@@ -107,6 +107,7 @@ presence is going to be kept up to provide /history/ and artistic merit.
 
 ** Creation of all necessary service provider accounts
    :LOGBOOK:
+   CLOCK: [2019-02-25 Mon 21:17]--[2019-02-25 Mon 21:53] =>  0:36
    CLOCK: [2018-12-18 Tue 21:00]--[2018-12-18 Tue 22:10] =>  1:10
    :END:
 
@@ -185,28 +186,29 @@ dull details present in the image.
 
 * Deploying the New Website 
   :LOGBOOK:
-  CLOCK: [2019-02-25 Mon 20:01]
+  CLOCK: [2019-02-25 Mon 20:01]--[2019-02-25 Mon 20:43] =>  0:42
   :END:
 
 
 * Time Log
 
 #+BEGIN: clocktable :maxlevel 3 :scope file
-#+CAPTION: Clock summary at [2019-02-25 Mon 18:56]
+#+CAPTION: Clock summary at [2019-02-25 Mon 21:53]
 | Headline                                    |    Time |      |      |
 |---------------------------------------------+---------+------+------|
-| *Total time*                                | *18:24* |      |      |
+| *Total time*                                | *19:42* |      |      |
 |---------------------------------------------+---------+------+------|
 | Project Summary                             |    1:01 |      |      |
-| Preparation                                 |    6:30 |      |      |
+| Preparation                                 |    7:06 |      |      |
 | \_  Requirements-gathering                  |         | 2:00 |      |
 | \_  Collecting necessary technical...       |         | 1:10 |      |
 | \_  Obtaining all assets                    |         | 2:10 |      |
-| \_  Creation of all necessary service...    |         | 1:10 |      |
+| \_  Creation of all necessary service...    |         | 1:46 |      |
 | Building the Site                           |   10:53 |      |      |
 | \_  Preparation of new website repository   |         | 1:00 |      |
 | \_  Migration of existing content to new... |         | 3:26 |      |
 | \_  Crafting a new look for the web site    |         | 6:27 |      |
 | \_    Selecting and installing a theme      |         |      | 2:50 |
 | \_    Customising the base theme            |         |      | 3:37 |
+| Deploying the New Website                   |    0:42 |      |      |
 #+END:
