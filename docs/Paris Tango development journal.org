@@ -189,14 +189,50 @@ dull details present in the image.
   CLOCK: [2019-02-25 Mon 20:01]--[2019-02-25 Mon 20:43] =>  0:42
   :END:
 
+** Change DNS records
+   :LOGBOOK:
+   CLOCK: [2019-03-09 Sat 01:04]
+   CLOCK: [2019-03-08 Fri 01:30]--[2019-03-08 Fri 02:09] =>  0:39
+   :END:
+
+The domain name is registered with [[https://godaddy.com/][GoDaddy]], using their default nameservers:
+
+1. ns09.domaincontrol.com
+2. ns10.domaincontrol.com
+
+The following are all the DNS entries recorded for paris-tango.co.uk:
+
+| Type  | Name                                   | Value                                                             | TTL    |
+|-------+----------------------------------------+-------------------------------------------------------------------+--------|
+| A     | @                                      | 160.153.129.215                                                   | 10800  |
+| A     | admin                                  | 160.153.129.215                                                   | 10800  |
+| A     | mail                                   | 160.153.129.215                                                   | 10800  |
+| CNAME | autodiscover                           | autodiscover.outlook.com                                          | 1 hour |
+| CNAME | cpanel                                 | @                                                                 | 10800  |
+| CNAME | selector1._domainkey.paris-tango.co.uk | selector1-paris-tango-co-uk._domainkey.paristango.onmicrosoft.com | 1 hour |
+| CNAME | selector2._domainkey.paris-tango.co.uk | selector2-paris-tango-co-uk._domainkey.paristango.onmicrosoft.com | 1 hour |
+| CNAME | webdisk                                | @                                                                 | 10800  |
+| CNAME | webdisk.admin                          | @                                                                 | 10800  |
+| CNAME | whm                                    | @                                                                 | 10800  |
+| CNAME | www                                    | @                                                                 | 10800  |
+| CNAME | www.admin                              | @                                                                 | 10800  |
+| CNAME | _domainconnect                         | _domainconnect.gd.domaincontrol.com                               | 1 hour |
+| MX    | @                                      | paristango-co-uk01c.mail.protection.outlook.com                   | 1 hour |
+| NS    | @                                      | ns09.domaincontrol.com                                            | 1 hour |
+| NS    | @                                      | ns10.domaincontrol.com                                            | 1 hour |
+| SOA   | @                                      | Primary nameserver: ns09.domaincontrol.com                        | 1 hour |
+| TXT   | @                                      | v=spf1 include:spf.protection.outlook.com -all                    | 1 hour |
+| TXT   | selector1._domainkey                   | selector1-paris-tango-co-uk._domainkey.paristango.onmicrosoft.com | 1 hour |
+
+
 
 * Time Log
 
 #+BEGIN: clocktable :maxlevel 3 :scope file
-#+CAPTION: Clock summary at [2019-02-25 Mon 21:53]
+#+CAPTION: Clock summary at [2019-03-08 Fri 02:09]
 | Headline                                    |    Time |      |      |
 |---------------------------------------------+---------+------+------|
-| *Total time*                                | *19:42* |      |      |
+| *Total time*                                | *20:21* |      |      |
 |---------------------------------------------+---------+------+------|
 | Project Summary                             |    1:01 |      |      |
 | Preparation                                 |    7:06 |      |      |
@@ -210,5 +246,6 @@ dull details present in the image.
 | \_  Crafting a new look for the web site    |         | 6:27 |      |
 | \_    Selecting and installing a theme      |         |      | 2:50 |
 | \_    Customising the base theme            |         |      | 3:37 |
-| Deploying the New Website                   |    0:42 |      |      |
+| Deploying the New Website                   |    1:21 |      |      |
+| \_  Change DNS records                      |         | 0:39 |      |
 #+END:
