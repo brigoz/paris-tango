@@ -31,3 +31,5 @@ fields:
   name: event_image
   label: Event image
   description: Provide an image to go with an event
+pages:
+- content/events/uk-official-tango-championship.md
