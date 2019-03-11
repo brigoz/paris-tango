@@ -10,8 +10,8 @@ fields:
     required: true
 - type: datetime
   name: date
-  label: Event date
-  description: Event date
+  label: Event date and time
+  description: Event start date and time
   config:
     date_format: DD/MM/YYYY
     time_format: hh:mm
