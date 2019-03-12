@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Events on Paris Tango</title>
+    <link>https://paris-tango.netlify.com/events/</link>
+    <description>Recent content in Events on Paris Tango</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Sat, 12 Jan 2019 14:33:19 +0000</lastBuildDate>
+    
+	<atom:link href="https://paris-tango.netlify.com/events/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>New event</title>
+      <link>https://paris-tango.netlify.com/events/event/</link>
+      <pubDate>Sat, 12 Jan 2019 14:33:19 +0000</pubDate>
+      
+      <guid>https://paris-tango.netlify.com/events/event/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

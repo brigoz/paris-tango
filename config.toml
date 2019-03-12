@@ -1,5 +1,5 @@
 # Site settings
-baseURL = "https://paris-tango.netlify.com/"
+baseURL = "https://paris-tango.co.uk/"
 languageCode = "en-gb"
 title = "Paris Tango"
 theme = "forty"
