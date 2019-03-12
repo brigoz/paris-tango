@@ -7,4 +7,6 @@ location = "Porchester Hall"
 title = "UK Official Tango Championship 25–28 April"
 
 +++
-UK Tango festival and championship 2019 is coming on the 26th, 27th and 28th of April this year.
+The 6th UK Tango festival and championship 2019 is coming to Porchester Hall on the 26th, 27th and 28th of April.
+
+![](image/upload/v1552423113/image/upload/zotto%20pic.jpg)
