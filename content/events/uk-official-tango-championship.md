@@ -7,6 +7,35 @@ location = "Porchester Hall"
 title = "UK Official Tango Championship 25–28 April"
 
 +++
-The 6th UK Tango festival and championship 2019 is coming to Porchester Hall on the 26th, 27th and 28th of April.
+Our 6th Festival / Championship - Official preliminaries to the World Cup held in Buenos Aires - 26 to 28 April 2019
 
-![](image/upload/v1552423113/image/upload/zotto%20pic.jpg)
+  
+As Event supervisor and Partner, I have been involved since the very beginning and seen this event grow fast to become a major tango event in Europe.
+
+## Features
+
+* 5 Milongas in the stunning Porchester Hall
+* 2 after milongas, in the iconic Paddington station and on a boat sailing the Thames
+* A total of 33 hours of social dancing!
+
+## Our Judges and Performers
+
+* Miguel Angel Zotto & Daiana Guspero
+* Christian Marques & Virginia Gomez "Los Totis"
+* Diego Ortega & Aidana Silveyra
+
+## Our competitors Coaches
+
+Juan Martin Carrara & Stefania Colina
+
+## Our DJs
+
+Benjamin Lee - Marcelo Rojas - Daniel Tiero - Andrea Dedo - Semeon Kukormin - Konrad Krynski
+
+All information and details on [https://uktangofestival.com/#schedule](https://uktangofestival.com/#schedule "https://uktangofestival.com/#schedule")
+
+Workshops with all our Maestros
+
+Please book early to avoid disappointment
+
+ [https://uktangofestival.com/workshops/](https://uktangofestival.com/workshops/ "https://uktangofestival.com/workshops/")
