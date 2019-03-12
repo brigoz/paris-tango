@@ -9,6 +9,8 @@ sections:
   label: Galleries
   create: documents
   match: "**/*"
+  templates:
+  - gallery
 - type: directory
   path: content/events
   label: Events
