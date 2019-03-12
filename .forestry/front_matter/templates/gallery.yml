@@ -12,4 +12,5 @@ fields:
   label: Description
   description: Metadata description
 pages:
+- content/galleries/brigitte-and-partners.md
 - content/galleries/tango-championships.md
