@@ -11,3 +11,5 @@ fields:
   name: description
   label: Description
   description: Metadata description
+pages:
+- content/galleries/championships-gallery.md
