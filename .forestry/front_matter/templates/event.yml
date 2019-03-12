@@ -10,11 +10,19 @@ fields:
     required: true
 - type: datetime
   name: date
-  label: Event date and time
-  description: Event start date and time
+  label: Creation date
+  description: ''
   config:
     date_format: DD/MM/YYYY
     time_format: hh:mm
+    required: false
+  hidden: true
+- type: datetime
+  name: event_date
+  label: Start date
+  description: Event date
+  config:
+    date_format: MM/DD/YYYY
     required: true
 - type: textarea
   name: description
