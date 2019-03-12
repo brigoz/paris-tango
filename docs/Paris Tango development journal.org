@@ -121,6 +121,7 @@ presence is going to be kept up to provide /history/ and artistic merit.
 
 ** Preparation of special content types
    :LOGBOOK:
+   CLOCK: [2019-03-12 Tue 23:34]
    CLOCK: [2019-03-12 Tue 20:15]--[2019-03-12 Tue 21:19] =>  1:04
    CLOCK: [2019-03-12 Tue 19:26]--[2019-03-12 Tue 19:34] =>  0:08
    CLOCK: [2019-03-11 Mon 20:23]--[2019-03-11 Mon 20:53] =>  0:30
@@ -200,7 +201,7 @@ dull details present in the image.
 
 * Deploying the New Website 
   :LOGBOOK:
-  CLOCK: [2019-03-12 Tue 22:56]
+  CLOCK: [2019-03-12 Tue 22:56]--[2019-03-12 Tue 23:34] =>  0:38
   CLOCK: [2019-02-25 Mon 20:01]--[2019-02-25 Mon 20:43] =>  0:42
   :END:
 
@@ -244,10 +245,10 @@ The following are all the DNS entries recorded for paris-tango.co.uk:
 * Time Log
 
 #+BEGIN: clocktable :maxlevel 3 :scope file
-#+CAPTION: Clock summary at [2019-03-12 Tue 21:19]
+#+CAPTION: Clock summary at [2019-03-12 Tue 23:34]
 | Headline                                    |    Time |      |      |
 |---------------------------------------------+---------+------+------|
-| *Total time*                                | *22:57* |      |      |
+| *Total time*                                | *23:35* |      |      |
 |---------------------------------------------+---------+------+------|
 | Project Summary                             |    1:01 |      |      |
 | Preparation                                 |    7:15 |      |      |
@@ -262,6 +263,6 @@ The following are all the DNS entries recorded for paris-tango.co.uk:
 | \_  Crafting a new look for the web site    |         | 6:27 |      |
 | \_    Selecting and installing a theme      |         |      | 2:50 |
 | \_    Customising the base theme            |         |      | 3:37 |
-| Deploying the New Website                   |    1:47 |      |      |
+| Deploying the New Website                   |    2:25 |      |      |
 | \_  Change DNS records                      |         | 1:05 |      |
 #+END:
