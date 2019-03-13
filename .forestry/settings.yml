@@ -23,8 +23,8 @@ sections:
   label: Pages
   create: all
   match: "*"
-upload_dir: image/upload
-public_path: image/upload
+upload_dir: ''
+public_path: https://res.cloudinary.com/paris-tango/image/upload
 front_matter_path: ''
 use_front_matter_path: true
 file_template: ":filename:"
