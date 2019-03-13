@@ -13,6 +13,7 @@ body {
     background-color: #FA7268;
     background-color: #380a07;
     background-color: #932017;
+    background-image: linear-gradient(to bottom, #000000 10%, #2a1015 70%, #4d131c 80%, #71171d 90%, #932017 100%);
 }
 
 #banner::after {
@@ -188,3 +189,25 @@ ul.pagination li > .page.active:hover {
 #header .logo img {
     background-color: #fa7268;
 }
+
+.inner img {
+    border: 1px solid #fa7268;
+}
+
+.event-main img {
+    clear: both;
+    float: right;
+    margin: 1em 0 1em 1.5rem;
+    width: 30%;
+}
+
+.gallery-main img {
+    display: block;
+    margin: 1.5rem auto;
+    width: 75%;
+}
+
+.main--clear {
+    clear: both;
+}
+

@@ -1,0 +1,202 @@
+/* Paris Tango 2019 Hugo theme, Sacha El Masry, February 2019
+
+   Built on Forty theme (https://themes.gohugo.io/forty/)
+   release 2018-10-09
+
+   This file consists of custom CSS targeted at overriding the
+   forty theme to match the aesthetics of paris-tango.co.uk,
+   originally established in 2008, with contributions from
+   Brigitte Ozarovsky and Conny Jude.
+*/
+
+body {
+    background-color: #FA7268;
+    background-color: #380a07;
+    background-color: #932017;
+    background-image: linear-gradient(to bottom, #000000 10%, #2a1015 70%, #4d131c 80%, #71171d 90%, #932017 100%);
+}
+
+#banner::after {
+    background-color: #FA7268;
+    opacity: 0.1;
+}
+
+#main {
+    background-color: #dd4c41;
+}
+
+#menu {
+    background: rgba(147,32,23,0.7);
+    background: rgba(104,19,12,0.7);
+}
+
+.figure-float-right {
+    float: right;
+    margin: 1.5rem 0 1.5rem 1.5rem;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="tel"],
+input[type="search"],
+input[type="url"],
+select,
+textarea {
+    background: rgba(255, 151, 143, 0.035);
+    background: rgba(255, 190, 185, 0.95);
+    background: rgba(255, 255, 255, 0.6);
+    background: rgba(253, 150, 93, 1);
+    font-weight: 900;
+}
+
+input[type="checkbox"] + label:before,
+input[type="radio"] + label:before {
+    background: rgba(253, 150, 93, 1);
+}
+input[type="submit"]:hover, input[type="submit"]:active,
+input[type="reset"]:hover,
+input[type="reset"]:active,
+input[type="button"]:hover,
+input[type="button"]:active,
+button:hover,
+button:active,
+.button:hover,
+.button:active {
+		box-shadow: inset 0 0 0 2px #fa7268;
+		color: #fa7268;
+}
+
+input[type="submit"].special:hover, input[type="submit"].special:active,
+input[type="reset"].special:hover,
+input[type="reset"].special:active,
+input[type="button"].special:hover,
+input[type="button"].special:active,
+button.special:hover,
+button.special:active,
+.button.special:hover,
+.button.special:active {
+		background-color: #fa7268;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+input[type="search"]:focus,
+input[type="url"]:focus,
+select:focus,
+textarea:focus {
+		border-color: #fa7268;
+		box-shadow: 0 0 0 2px #f2cc8f;
+}
+
+.box {
+    border: 1px solid rgba(255, 190, 185, 0.95);
+}
+
+#footer .copyright li {
+    color: rgba(255, 190, 185, 0.95);
+}
+
+blockquote {
+    border-left-color: rgba(255, 190, 185, 0.95);
+}
+
+code {
+    background: rgba(255, 190, 185, 0.95);
+}
+
+hr,
+table thead,
+#main.alt,
+#contact {
+    border-bottom-color: rgba(255, 190, 185, 0.95);
+}
+
+.select-wrapper:before {
+    color: rgba(255, 190, 185, 0.95);
+}
+
+#main > *,
+ul.alt li,
+table tfoot,
+#contact > .inner > .split > *:before,
+#menu ul.links > li > a:not(.button) {
+    border-top-color: rgba(255, 190, 185, 0.95);
+}
+
+#contact > .inner > :nth-child(2n - 1) {
+    border-right-color: rgba(255, 190, 185, 0.95);
+}
+
+#footer .copyright li {
+    border-left-color: rgba(255, 190, 185, 0.95);
+}
+
+table tbody tr,
+table.alt tbody tr td {
+    border-color: rgba(255, 190, 185, 0.95);
+}
+
+table tbody tr:nth-child(2n + 1) {
+    background-color: rgba(255, 190, 185, 0.95);
+}
+
+.tiles article::before {
+    opacity: 0.45;
+}
+
+.tiles article:nth-child(6n-5)::before {
+    background-color: #f2c57c;
+}
+
+.tiles article:nth-child(6n-1)::before {
+    background-color: #3d405b;
+}
+
+a:hover,
+#header .logo:hover strong {
+    color: #fa7268;
+    color: #f2cc8f; 
+}
+
+a:active {
+    color: #f2cc8f; 
+}
+
+a.icon.alt:hover:before,
+ul.pagination li > .page.active:hover {
+		background-color: #fa7268;
+}
+
+#header nav a[href="#menu"]::after {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='32' viewBox='0 0 24 32' preserveAspectRatio='none'%3E%3Cstyle%3Eline %7B stroke-width: 2px%3B stroke: %f2cc8fff%3B %7D%3C/style%3E%3Cline x1='0' y1='11' x2='24' y2='11' /%3E%3Cline x1='0' y1='21' x2='24' y2='21' /%3E%3Cline x1='0' y1='16' x2='24' y2='16' /%3E%3C/svg%3E");
+}
+
+#menu .close::after {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='20px' height='20px' viewBox='0 0 20 20' zoomAndPan='disable'%3E%3Cstyle%3Eline %7B stroke: %f2cc8fff%3B stroke-width: 2%3B %7D%3C/style%3E%3Cline x1='0' y1='0' x2='20' y2='20' /%3E%3Cline x1='20' y1='0' x2='0' y2='20' /%3E%3C/svg%3E");
+}
+
+#header .logo:hover strong {
+    background-color: #000;
+}
+
+#header.alt .logo img {
+    background-color: transparent;
+}
+
+#header .logo img {
+    background-color: #fa7268;
+}
+
+.inner img {
+    clear: both;
+    float: right;
+    width: 40%;
+}
+
+.main--clear {
+    clear: both;
+}
+

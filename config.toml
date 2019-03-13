@@ -27,6 +27,9 @@ disqusShortname = ""
   custom_js  = []
   favicon    = "favicon.ico"
 
+
+  mediaSecureDeliveryURL = "https://res.cloudinary.com/paris-tango/"
+
   # Just a custom image variable, please define it in .md files for content.
   image = ""
 
