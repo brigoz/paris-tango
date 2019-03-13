@@ -121,7 +121,7 @@ presence is going to be kept up to provide /history/ and artistic merit.
 
 ** Preparation of special content types
    :LOGBOOK:
-   CLOCK: [2019-03-12 Tue 23:34]
+   CLOCK: [2019-03-12 Tue 23:34]--[2019-03-12 Tue 23:51] =>  0:17
    CLOCK: [2019-03-12 Tue 20:15]--[2019-03-12 Tue 21:19] =>  1:04
    CLOCK: [2019-03-12 Tue 19:26]--[2019-03-12 Tue 19:34] =>  0:08
    CLOCK: [2019-03-11 Mon 20:23]--[2019-03-11 Mon 20:53] =>  0:30
@@ -134,6 +134,7 @@ individual pages or a listing.
 
 ** Migration of existing content to new platform
    :LOGBOOK:
+   CLOCK: [2019-03-12 Tue 23:59]
    CLOCK: [2019-03-11 Mon 20:22]--[2019-03-11 Mon 20:22] =>  0:00
    CLOCK: [2019-03-11 Mon 17:18]--[2019-03-11 Mon 17:37] =>  0:19
    CLOCK: [2019-02-25 Mon 16:50]--[2019-02-25 Mon 17:21] =>  0:31
@@ -245,10 +246,10 @@ The following are all the DNS entries recorded for paris-tango.co.uk:
 * Time Log
 
 #+BEGIN: clocktable :maxlevel 3 :scope file
-#+CAPTION: Clock summary at [2019-03-12 Tue 23:34]
+#+CAPTION: Clock summary at [2019-03-12 Tue 23:51]
 | Headline                                    |    Time |      |      |
 |---------------------------------------------+---------+------+------|
-| *Total time*                                | *23:35* |      |      |
+| *Total time*                                | *23:52* |      |      |
 |---------------------------------------------+---------+------+------|
 | Project Summary                             |    1:01 |      |      |
 | Preparation                                 |    7:15 |      |      |
@@ -256,9 +257,9 @@ The following are all the DNS entries recorded for paris-tango.co.uk:
 | \_  Collecting necessary technical...       |         | 1:10 |      |
 | \_  Obtaining all assets                    |         | 2:19 |      |
 | \_  Creation of all necessary service...    |         | 1:46 |      |
-| Building the Site                           |   12:54 |      |      |
+| Building the Site                           |   13:11 |      |      |
 | \_  Preparation of new website repository   |         | 1:00 |      |
-| \_  Preparation of special content types    |         | 1:42 |      |
+| \_  Preparation of special content types    |         | 1:59 |      |
 | \_  Migration of existing content to new... |         | 3:45 |      |
 | \_  Crafting a new look for the web site    |         | 6:27 |      |
 | \_    Selecting and installing a theme      |         |      | 2:50 |
