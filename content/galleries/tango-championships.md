@@ -5,6 +5,3 @@ image = "/v1552446116/IMG_0920.jpg"
 title = "Tango Championships"
 
 +++
-![](image/upload/v1552422942/image/upload/Fest:Champ2019.jpg)
-
-![](image/upload/v1552423113/image/upload/zotto%20pic.jpg)
