@@ -9,8 +9,9 @@ title = "UK Official Tango Championship 26–28 April"
 +++
 Our 6th Festival / Championship - Official preliminaries to the World Cup held in Buenos Aires - 26 to 28 April 2019
 
-  
 As Event supervisor and Partner, I have been involved since the very beginning and seen this event grow fast to become a major tango event in Europe.
+
+![](https://res.cloudinary.com/paris-tango/image/upload/v1552423113/zotto%20pic.jpg)
 
 ## Features
 
@@ -38,4 +39,4 @@ Workshops with all our Maestros
 
 Please book early to avoid disappointment
 
- [https://uktangofestival.com/workshops/](https://uktangofestival.com/workshops/ "https://uktangofestival.com/workshops/")
+[https://uktangofestival.com/workshops/](https://uktangofestival.com/workshops/ "https://uktangofestival.com/workshops/")
