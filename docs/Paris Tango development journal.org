@@ -135,6 +135,7 @@ individual pages or a listing.
 
 ** Migration of existing content to new platform
    :LOGBOOK:
+   CLOCK: [2019-03-13 Wed 09:00]--[2019-03-13 Wed 09:30] =>  0:30
    CLOCK: [2019-03-12 Tue 23:59]--[2019-03-13 Wed 00:22] =>  0:23
    CLOCK: [2019-03-11 Mon 20:22]--[2019-03-11 Mon 20:22] =>  0:00
    CLOCK: [2019-03-11 Mon 17:18]--[2019-03-11 Mon 17:37] =>  0:19
@@ -170,7 +171,7 @@ use.
 
 *** Customising the base theme
     :LOGBOOK:
-    CLOCK: [2019-03-13 Wed 02:48]
+    CLOCK: [2019-03-13 Wed 02:48]--[2019-03-13 Wed 03:41] =>  0:53
     CLOCK: [2019-03-13 Wed 01:48]--[2019-03-13 Wed 02:30] =>  0:42
     CLOCK: [2019-03-13 Wed 01:24]--[2019-03-13 Wed 01:45] =>  0:21
     CLOCK: [2019-02-25 Mon 17:21]--[2019-02-25 Mon 18:56] =>  1:35
@@ -246,14 +247,19 @@ The following are all the DNS entries recorded for paris-tango.co.uk:
 | TXT   | selector1._domainkey                   | selector1-paris-tango-co-uk._domainkey.paristango.onmicrosoft.com | 1 hour |
 
 
+** Implement final corrections
+   :LOGBOOK:
+   CLOCK: [2019-03-13 Wed 11:45]
+   :END:
+
 
 * Time Log
 
 #+BEGIN: clocktable :maxlevel 3 :scope file
-#+CAPTION: Clock summary at [2019-03-13 Wed 02:30]
+#+CAPTION: Clock summary at [2019-03-13 Wed 09:51]
 | Headline                                    |    Time |      |      |
 |---------------------------------------------+---------+------+------|
-| *Total time*                                | *25:44* |      |      |
+| *Total time*                                | *27:07* |      |      |
 |---------------------------------------------+---------+------+------|
 | Project Summary                             |    1:01 |      |      |
 | Preparation                                 |    7:15 |      |      |
@@ -261,13 +267,13 @@ The following are all the DNS entries recorded for paris-tango.co.uk:
 | \_  Collecting necessary technical...       |         | 1:10 |      |
 | \_  Obtaining all assets                    |         | 2:19 |      |
 | \_  Creation of all necessary service...    |         | 1:46 |      |
-| Building the Site                           |   15:03 |      |      |
+| Building the Site                           |   16:26 |      |      |
 | \_  Preparation of new website repository   |         | 1:26 |      |
 | \_  Preparation of special content types    |         | 1:59 |      |
-| \_  Migration of existing content to new... |         | 4:08 |      |
-| \_  Crafting a new look for the web site    |         | 7:30 |      |
+| \_  Migration of existing content to new... |         | 4:38 |      |
+| \_  Crafting a new look for the web site    |         | 8:23 |      |
 | \_    Selecting and installing a theme      |         |      | 2:50 |
-| \_    Customising the base theme            |         |      | 4:40 |
+| \_    Customising the base theme            |         |      | 5:33 |
 | Deploying the New Website                   |    2:25 |      |      |
 | \_  Change DNS records                      |         | 1:05 |      |
 #+END:
