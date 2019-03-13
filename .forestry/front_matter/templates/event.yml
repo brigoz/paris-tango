@@ -1,7 +1,6 @@
 ---
 label: Event
 hide_body: false
-display_field: title
 fields:
 - type: text
   name: title
@@ -37,7 +36,7 @@ fields:
   name: location
   description: Event location and address
 - type: file
-  name: event_image
+  name: image
   label: Event image
   description: Provide an informative image to go with an event
 pages:
