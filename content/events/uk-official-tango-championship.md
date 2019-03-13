@@ -2,7 +2,7 @@
 date = "2019-03-01T20:00:00+00:00"
 description = "The 6th UK official tango championship, 2019, is on from the 26–28th April"
 event_date = "2019-04-25T23:00:00+00:00"
-event_image = "/v1552422942/image/upload/Fest:Champ2019.jpg"
+event_image = "/v1552422942/Fest:Champ2019.jpg"
 location = "Porchester Hall"
 title = "UK Official Tango Championship 26–28 April"
 
@@ -11,7 +11,7 @@ Our 6th Festival / Championship - Official preliminaries to the World Cup held i
 
 As Event supervisor and Partner, I have been involved since the very beginning and seen this event grow fast to become a major tango event in Europe.
 
-![](https://res.cloudinary.com/paris-tango/image/upload/v1552423113/zotto%20pic.jpg)
+![Miguel Angel Zotto & Daiana Guspero](https://res.cloudinary.com/paris-tango/image/upload/v1552423113/zotto%20pic.jpg)
 
 ## Features
 
