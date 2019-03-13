@@ -249,17 +249,18 @@ The following are all the DNS entries recorded for paris-tango.co.uk:
 
 ** Implement final corrections
    :LOGBOOK:
-   CLOCK: [2019-03-13 Wed 11:45]
+   CLOCK: [2019-03-13 Wed 15:38]
+   CLOCK: [2019-03-13 Wed 11:45]--[2019-03-13 Wed 11:56] =>  0:11
    :END:
 
 
 * Time Log
 
 #+BEGIN: clocktable :maxlevel 3 :scope file
-#+CAPTION: Clock summary at [2019-03-13 Wed 09:51]
+#+CAPTION: Clock summary at [2019-03-13 Wed 11:57]
 | Headline                                    |    Time |      |      |
 |---------------------------------------------+---------+------+------|
-| *Total time*                                | *27:07* |      |      |
+| *Total time*                                | *27:18* |      |      |
 |---------------------------------------------+---------+------+------|
 | Project Summary                             |    1:01 |      |      |
 | Preparation                                 |    7:15 |      |      |
@@ -274,6 +275,7 @@ The following are all the DNS entries recorded for paris-tango.co.uk:
 | \_  Crafting a new look for the web site    |         | 8:23 |      |
 | \_    Selecting and installing a theme      |         |      | 2:50 |
 | \_    Customising the base theme            |         |      | 5:33 |
-| Deploying the New Website                   |    2:25 |      |      |
+| Deploying the New Website                   |    2:36 |      |      |
 | \_  Change DNS records                      |         | 1:05 |      |
+| \_  Implement final corrections             |         | 0:11 |      |
 #+END:
