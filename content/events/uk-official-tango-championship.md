@@ -19,11 +19,15 @@ As Event supervisor and Partner, I have been involved since the very beginning a
 * 2 after milongas, in the iconic Paddington station and on a boat sailing the Thames
 * A total of 33 hours of social dancing!
 
+![](https://res.cloudinary.com/paris-tango/image/upload/v1552439623/los%20totis.jpg)
+
 ## Our Judges and Performers
 
 * Miguel Angel Zotto & Daiana Guspero
 * Christian Marques & Virginia Gomez "Los Totis"
 * Diego Ortega & Aidana Silveyra
+
+![](https://res.cloudinary.com/paris-tango/image/upload/v1552439670/Aldana%20pic.jpg)
 
 ## Our competitors Coaches
 
