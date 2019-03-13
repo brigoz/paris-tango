@@ -1,6 +1,6 @@
 +++
 date = "2019-03-01T20:00:00+00:00"
-description = "The 6th UK official tango championship, 2019, is on from the 26–28th April"
+description = "The 6th UK official tango championship, is on the 26–28th April 2019"
 event_date = "2019-04-25T23:00:00+00:00"
 event_image = "/v1552422942/Fest:Champ2019.jpg"
 location = "Porchester Hall"
