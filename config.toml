@@ -118,7 +118,7 @@ disqusShortname = ""
 
     [[params.tiles.showcase]]
       title = "Photo Gallery: Brigitte"
-      subtitle = "Brigitte and her partners"
+      subtitle = "Brigitte's agency"
       image = "Bs2019_Brigittepix2_2008.jpeg"
       url = "galleries/brigitte-and-partners"
 
