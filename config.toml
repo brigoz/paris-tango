@@ -179,7 +179,7 @@ If you are a visitor we will inform you where to dance in the UK and in France d
     # - send a dummy email yourself to confirm your account
     # - click the confirm link in the email from www.formspree.io
     # - you're done. Happy mailing!
-    # formEmail = "example@domain.com"
+    formEmail = "brigitte@paris-tango.co.uk"
 
     # Contact Section
     # You can add multiple emails, phone numbers, or addresses
