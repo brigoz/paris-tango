@@ -7,7 +7,7 @@ image: "/v1552447593/Bs2019_Brigittepix1_2008.jpg"
 ---
 Born and educated in Paris, I studied ballet and piano from the age of 5. Music and dance have always been part of my life. As a child, I joined the Roland Pilain troupe performing regularly with the well known "Théatre du Petit Monde". My Russian father played the violin and I grew up with the sounds of tzigane music and traditional folklore.
 
-![](https://res.cloudinary.com/paris-tango/image/upload/v1552521407/Brigitte-2010_200.jpg)
+![](https://res.cloudinary.com/paris-tango/image/upload/v1552525987/Bs2019_Brigittepix2_2008.jpg)
 
 I fell in love with Argentine Tango, first the music then the dance, when seeing  the show "Forever Tango". A few years later I joined a ballroom and Latin American dance school. But my true love was in Tango so I left ballroom to find Argentine tango.
 
