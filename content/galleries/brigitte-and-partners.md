@@ -14,3 +14,7 @@ title = "Brigitte's Agency"
 ![](https://res.cloudinary.com/paris-tango/image/upload/v1552523653/Bs2019_FriendsOmar.jpg)
 
 ![](https://res.cloudinary.com/paris-tango/image/upload/v1552523653/Bs2019_FriendsRicardo2.jpg)
+
+![](https://res.cloudinary.com/paris-tango/image/upload/v1552521490/T0105T268.jpg)
+
+![](https://res.cloudinary.com/paris-tango/image/upload/v1552521489/T0105T267.orch.jpg)
