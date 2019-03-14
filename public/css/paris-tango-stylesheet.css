@@ -23,6 +23,9 @@ body {
 
 #main {
     background-color: #dd4c41;
+    background-color: #bf3026;
+    background-color: #a01c13;
+    background-color: #820f07;
 }
 
 #menu {
@@ -47,6 +50,8 @@ textarea {
     background: rgba(255, 190, 185, 0.95);
     background: rgba(255, 255, 255, 0.6);
     background: rgba(253, 150, 93, 1);
+    background-color: #bf3026;
+    background: rgba(191, 48, 38, 1);
     font-weight: 900;
 }
 
@@ -188,12 +193,24 @@ ul.pagination li > .page.active:hover {
 
 #header .logo img {
     background-color: #fa7268;
+    background-color: #bf3026;
 }
 
 .inner img {
+    border: 1px solid #fa7268;
+}
+
+.event-main img {
     clear: both;
     float: right;
-    width: 40%;
+    margin: 1em 0 1em 1.5rem;
+    width: 30%;
+}
+
+.gallery-main img {
+    display: block;
+    margin: 1.5rem auto;
+    width: 75%;
 }
 
 .main--clear {

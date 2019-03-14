@@ -101,37 +101,37 @@ disqusShortname = ""
     [[params.tiles.showcase]]
       title = "History"
       subtitle = "About Brigitte"
-      image = "Bs2019_Brigittepix1_2008.jpeg"
+      image = "https://res.cloudinary.com/paris-tango/image/upload/v1552521473/Brigitte_Martin-_original-_2008.jpg"
       url = "about-us"
 
     [[params.tiles.showcase]]
       title = "Events"
       subtitle = "Our upcoming and past events"
-      image = "F&F-2010 portraits  201.jpg"
+      image = "https://res.cloudinary.com/paris-tango/image/upload/v1552521474/F_F-2010_portraits_201.jpg"
       url = "events"
 
     [[params.tiles.showcase]]
       title = "Photo Gallery: Championships"
       subtitle = "Tango championships and festivals"
-      image = "F&F-2010 dancers  212.jpg"
+      image = "https://res.cloudinary.com/paris-tango/image/upload/v1552521474/F_F-2010_dancers_212.jpg"
       url = "galleries/tango-championships"
 
     [[params.tiles.showcase]]
       title = "Photo Gallery: Brigitte"
       subtitle = "Brigitte's agency"
-      image = "Bs2019_Brigittepix2_2008.jpeg"
+      image = "/img/Bs2019_Brigittepix2_2008.jpeg"
       url = "galleries/brigitte-and-partners"
 
     [[params.tiles.showcase]]
       title = "Photo Gallery: Friends"
       subtitle = "Some of my dearest tango friends"
-      image = "CIMG9211.jpeg"
+      image = "https://res.cloudinary.com/paris-tango/image/upload/v1552524019/Bs2019_3B_ConnyAsta2007.jpg"
       url = "galleries/tango-friends"
 
     [[params.tiles.showcase]]
       title = "Photo Gallery: Tango Holidays"
       subtitle = "Holidays organised by Paris Tango: Paris, Chateau Juvenal, Avignon"
-      image = "Bs2019_3ParisMilonga2007.jpeg"
+      image = "https://res.cloudinary.com/paris-tango/image/upload/v1552523653/Bs2019_3ParisMilonga2007.jpg"
       url = "galleries/tango-holidays"
     # You can make more showcases by copy and pasting the code above
 

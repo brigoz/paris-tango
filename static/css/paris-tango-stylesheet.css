@@ -16,6 +16,10 @@ body {
     background-image: linear-gradient(to bottom, #000000 10%, #2a1015 70%, #4d131c 80%, #71171d 90%, #932017 100%);
 }
 
+#banner {
+		background-image: url("../img/banner.jpg");
+}
+
 #banner::after {
     background-color: #FA7268;
     opacity: 0.1;

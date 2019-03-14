@@ -135,7 +135,6 @@ individual pages or a listing.
 
 ** Migration of existing content to new platform
    :LOGBOOK:
-   CLOCK: [2019-03-13 Wed 18:07]--[2019-03-13 Wed 19:10] =>  1:03
    CLOCK: [2019-03-13 Wed 09:00]--[2019-03-13 Wed 09:30] =>  0:30
    CLOCK: [2019-03-12 Tue 23:59]--[2019-03-13 Wed 00:22] =>  0:23
    CLOCK: [2019-03-11 Mon 20:22]--[2019-03-11 Mon 20:22] =>  0:00
@@ -150,6 +149,12 @@ In this stage, all the content from the legacy site is copied from the existing,
 legacy website to the new Hugo-based one. All pages are recreated, and any
 /custom/ content, events in our case, are modelled and built as /fields/ in the
 site generator.
+
+** Asset optimisation
+   :LOGBOOK:
+   CLOCK: [2019-03-13 Wed 23:55]
+   CLOCK: [2019-03-13 Wed 18:07]--[2019-03-13 Wed 19:10] =>  1:03
+   :END:
 
 All imagery used is uploaded onto the Cloudinary server, where Forestry.io can
 find it to use it in the content management system. But, it isn't enough to
@@ -219,7 +224,7 @@ dull details present in the image.
 
 * Deploying the New Website 
   :LOGBOOK:
-  CLOCK: [2019-03-13 Wed 23:28]
+  CLOCK: [2019-03-13 Wed 23:28]--[2019-03-13 Wed 23:47] =>  0:19
   CLOCK: [2019-03-12 Tue 22:56]--[2019-03-12 Tue 23:34] =>  0:38
   CLOCK: [2019-02-25 Mon 20:01]--[2019-02-25 Mon 20:43] =>  0:42
   :END:
@@ -271,10 +276,10 @@ The following are all the DNS entries recorded for paris-tango.co.uk:
 * Time Log
 
 #+BEGIN: clocktable :maxlevel 3 :scope file
-#+CAPTION: Clock summary at [2019-03-13 Wed 23:24]
+#+CAPTION: Clock summary at [2019-03-13 Wed 23:48]
 | Headline                                    |    Time |      |      |
 |---------------------------------------------+---------+------+------|
-| *Total time*                                | *28:32* |      |      |
+| *Total time*                                | *28:51* |      |      |
 |---------------------------------------------+---------+------+------|
 | Project Summary                             |    1:01 |      |      |
 | Preparation                                 |    7:15 |      |      |
@@ -289,7 +294,7 @@ The following are all the DNS entries recorded for paris-tango.co.uk:
 | \_  Crafting a new look for the web site    |         | 8:23 |      |
 | \_    Selecting and installing a theme      |         |      | 2:50 |
 | \_    Customising the base theme            |         |      | 5:33 |
-| Deploying the New Website                   |    2:47 |      |      |
+| Deploying the New Website                   |    3:06 |      |      |
 | \_  Change DNS records                      |         | 1:05 |      |
 | \_  Implement final corrections             |         | 0:22 |      |
 #+END:
