@@ -22,3 +22,11 @@ title = "Tango Holidays"
 ![](https://res.cloudinary.com/paris-tango/image/upload/v1552523463/10724_131648841161_542346161_2384509_2195398_n.jpg)
 
 ![](https://res.cloudinary.com/paris-tango/image/upload/v1552523472/10724_131649021161_542346161_2384534_907885_n.jpg)
+
+![](https://res.cloudinary.com/paris-tango/image/upload/v1552985509/The_Group_Juvenal_2012.jpg)
+
+![](https://res.cloudinary.com/paris-tango/image/upload/v1552985509/Juvenal_Aug_2012.jpg)
+
+![](https://res.cloudinary.com/paris-tango/image/upload/v1552985509/Chateau_Juvenal_Aug_2012.jpg)
+
+![](https://res.cloudinary.com/paris-tango/image/upload/v1552985508/Diego_Graciela_Chateau_Juvenal_2012.jpg)
