@@ -1,20 +1,10 @@
 +++
 date = "2019-03-12T20:57:22+00:00"
-description = ""
-image = "/v1552521407/Brigitte-2010_200.jpg"
+description = "Brigitte and her clients"
+image = "/v1552525987/Bs2019_Brigittepix2_2008.jpg"
 title = "Brigitte's Agency"
 
 +++
-![](https://res.cloudinary.com/paris-tango/image/upload/v1552521489/T0105T191.flowers.jpg)
+![](https://res.cloudinary.com/paris-tango/image/upload/v1552982937/london2007_Fren_ontlA5faw6.jpg)![](https://res.cloudinary.com/paris-tango/image/upload/v1552982937/london_Frenchcr_acklA5faw6.jpg)![](https://res.cloudinary.com/paris-tango/image/upload/v1552982937/F_F_Ball_2008_leaflet.jpg)![](https://res.cloudinary.com/paris-tango/image/upload/v1552982937/F_F_ball_2009_flyer.jpg)
 
-![](https://res.cloudinary.com/paris-tango/image/upload/v1552522235/2010.jpg)
-
-![](https://res.cloudinary.com/paris-tango/image/upload/v1552523653/Bs2019_FriendsMonica.jpg)
-
-![](https://res.cloudinary.com/paris-tango/image/upload/v1552523653/Bs2019_FriendsOmar.jpg)
-
-![](https://res.cloudinary.com/paris-tango/image/upload/v1552523653/Bs2019_FriendsRicardo2.jpg)
-
-![](https://res.cloudinary.com/paris-tango/image/upload/v1552521490/T0105T268.jpg)
-
-![](https://res.cloudinary.com/paris-tango/image/upload/v1552521489/T0105T267.orch.jpg)
+![](https://res.cloudinary.com/paris-tango/image/upload/v1552982937/F_F_ball_2011.jpg)
