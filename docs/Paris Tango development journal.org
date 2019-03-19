@@ -188,7 +188,7 @@ use.
 
 *** Customising the base theme
     :LOGBOOK:
-    CLOCK: [2019-03-19 Tue 01:36]
+    CLOCK: [2019-03-19 Tue 01:36]--[2019-03-19 Tue 01:45] =>  0:09
     CLOCK: [2019-03-13 Wed 02:48]--[2019-03-13 Wed 03:41] =>  0:53
     CLOCK: [2019-03-13 Wed 01:48]--[2019-03-13 Wed 02:30] =>  0:42
     CLOCK: [2019-03-13 Wed 01:24]--[2019-03-13 Wed 01:45] =>  0:21
@@ -269,20 +269,27 @@ The following are all the DNS entries recorded for paris-tango.co.uk:
 
 ** Implement final corrections
    :LOGBOOK:
+   CLOCK: [2019-03-19 Tue 07:53]
    CLOCK: [2019-03-19 Tue 01:31]--[2019-03-19 Tue 01:36] =>  0:05
    CLOCK: [2019-03-13 Wed 17:52]--[2019-03-13 Wed 17:54] =>  0:02
    CLOCK: [2019-03-13 Wed 15:38]--[2019-03-13 Wed 15:47] =>  0:09
    CLOCK: [2019-03-13 Wed 11:45]--[2019-03-13 Wed 11:56] =>  0:11
    :END:
 
+   The photographs I selected to put in their respective galleries aren't
+   correct, adequate or doing the job. Brigitte has re-sent what appears to be
+   the same set of images she already provided throughout the project, but
+   sorted into albums this time, making it easy to download, manipulate them for
+   maximum size, optimise them, upload them to Cloudinary and finally to insert
+   them into their respective album.
 
 * Time Log
 
 #+BEGIN: clocktable :maxlevel 3 :scope file
-#+CAPTION: Clock summary at [2019-03-14 Thu 01:17]
+#+CAPTION: Clock summary at [2019-03-19 Tue 01:45]
 | Headline                                    |    Time |      |      |
 |---------------------------------------------+---------+------+------|
-| *Total time*                                | *30:13* |      |      |
+| *Total time*                                | *30:27* |      |      |
 |---------------------------------------------+---------+------+------|
 | Project Summary                             |    1:01 |      |      |
 | Preparation                                 |    7:15 |      |      |
@@ -290,15 +297,15 @@ The following are all the DNS entries recorded for paris-tango.co.uk:
 | \_  Collecting necessary technical...       |         | 1:10 |      |
 | \_  Obtaining all assets                    |         | 2:19 |      |
 | \_  Creation of all necessary service...    |         | 1:46 |      |
-| Building the Site                           |   18:51 |      |      |
+| Building the Site                           |   19:00 |      |      |
 | \_  Preparation of new website repository   |         | 1:26 |      |
 | \_  Preparation of special content types    |         | 1:59 |      |
 | \_  Migration of existing content to new... |         | 4:38 |      |
 | \_  Asset optimisation                      |         | 2:25 |      |
-| \_  Crafting a new look for the web site    |         | 8:23 |      |
+| \_  Crafting a new look for the web site    |         | 8:32 |      |
 | \_    Selecting and installing a theme      |         |      | 2:50 |
-| \_    Customising the base theme            |         |      | 5:33 |
-| Deploying the New Website                   |    3:06 |      |      |
+| \_    Customising the base theme            |         |      | 5:42 |
+| Deploying the New Website                   |    3:11 |      |      |
 | \_  Change DNS records                      |         | 1:05 |      |
-| \_  Implement final corrections             |         | 0:22 |      |
+| \_  Implement final corrections             |         | 0:27 |      |
 #+END:

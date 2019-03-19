@@ -114,18 +114,18 @@ disqusShortname = ""
       title = "Events and Festivals"
       subtitle = "Events, festivals and championships"
       image = "https://res.cloudinary.com/paris-tango/image/upload/v1552521474/F_F-2010_dancers_212.jpg"
-      url = "galleries/tango-championships"
+      url = "galleries/events-festivals-and-tango-championships"
 
     [[params.tiles.showcase]]
       title = "Agency"
       subtitle = "Brigitte and her clients"
       image = "https://res.cloudinary.com/paris-tango/image/upload/v1552525987/Bs2019_Brigittepix2_2008.jpg"
-      url = "galleries/brigitte-and-partners"
+      url = "galleries/agency"
 
     [[params.tiles.showcase]]
       title = "Photo Gallery: Friends"
       subtitle = "Some of my dearest tango friends"
-      image = "https://res.cloudinary.com/paris-tango/image/upload/v1552524019/Bs2019_3B_ConnyAsta2007.jpg"
+      image = "https://res.cloudinary.com/paris-tango/image/upload/v1552445820/CIMG9211.jpg"
       url = "galleries/tango-friends"
 
     [[params.tiles.showcase]]
