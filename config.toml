@@ -219,7 +219,7 @@ If you are a visitor we will inform you where to dance in the UK and in France d
     [[params.footer.social]]
       icon = "fa-facebook"
       url= "https://www.facebook.com/Tango-with-Brigitte-Paris-Tango-132599513425720/"
-      label = "Facebook"
+      label = "Facebook page"
 
     # Paris Tango doesn't use Instagram or LinkedIn, remove from footer
     # to re-activate, remove all comments from following lines

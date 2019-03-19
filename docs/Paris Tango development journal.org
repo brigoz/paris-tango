@@ -269,7 +269,8 @@ The following are all the DNS entries recorded for paris-tango.co.uk:
 
 ** Implement final corrections
    :LOGBOOK:
-   CLOCK: [2019-03-19 Tue 11:22]
+   CLOCK: [2019-03-19 Tue 15:15]
+   CLOCK: [2019-03-19 Tue 11:22]--[2019-03-19 Tue 11:55] =>  0:33
    CLOCK: [2019-03-19 Tue 07:53]--[2019-03-19 Tue 09:00] =>  1:07
    CLOCK: [2019-03-19 Tue 01:31]--[2019-03-19 Tue 01:36] =>  0:05
    CLOCK: [2019-03-13 Wed 17:52]--[2019-03-13 Wed 17:54] =>  0:02
@@ -284,13 +285,26 @@ The following are all the DNS entries recorded for paris-tango.co.uk:
    maximum size, optimise them, upload them to Cloudinary and finally to insert
    them into their respective album.
 
+   Updated galleries, in a live telephone conference with Brigitte, moving
+   contents out of agency into events and festivals, moving certain imagery from
+   friends to agency, and adding images to all three as per instructions.
+
+   Change colour of logo backing box to be the same darker shade of the primary
+   colour as used in the footer of the page, in the social media icons section.
+   Also, add a little bit of sideways margin to let the logo /breathe/ a little.
+
+   Update templated social icons in page footer: ensure that the social icon
+   /label/ text appears next to the icon. By default, only the icon shows, but
+   the image used in the icon can be ambiguous, so additionally write i.e. ``Facebook
+   page'' next to the icon.
+
 * Time Log
 
 #+BEGIN: clocktable :maxlevel 3 :scope file
-#+CAPTION: Clock summary at [2019-03-19 Tue 09:00]
+#+CAPTION: Clock summary at [2019-03-19 Tue 15:15]
 | Headline                                    |    Time |      |      |
 |---------------------------------------------+---------+------+------|
-| *Total time*                                | *31:34* |      |      |
+| *Total time*                                | *32:07* |      |      |
 |---------------------------------------------+---------+------+------|
 | Project Summary                             |    1:01 |      |      |
 | Preparation                                 |    7:15 |      |      |
@@ -306,7 +320,7 @@ The following are all the DNS entries recorded for paris-tango.co.uk:
 | \_  Crafting a new look for the web site    |         | 8:32 |      |
 | \_    Selecting and installing a theme      |         |      | 2:50 |
 | \_    Customising the base theme            |         |      | 5:42 |
-| Deploying the New Website                   |    4:18 |      |      |
+| Deploying the New Website                   |    4:51 |      |      |
 | \_  Change DNS records                      |         | 1:05 |      |
-| \_  Implement final corrections             |         | 1:34 |      |
+| \_  Implement final corrections             |         | 2:07 |      |
 #+END:

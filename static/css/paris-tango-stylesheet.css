@@ -176,9 +176,26 @@ a:active {
     color: #f2cc8f; 
 }
 
+.icon > .label {
+		display: inline-block;
+    padding-left: 1em;
+}
+
 a.icon.alt:hover:before,
 ul.pagination li > .page.active:hover {
 		background-color: #fa7268;
+}
+
+h3,
+.icon > .label {
+    
+		font-weight: 500;
+		line-height: 1.65;
+		margin: 0 0 1em 0;
+}
+
+.icon > .label {
+		font-size: 1.25em;
 }
 
 #header nav a[href="#menu"]::after {
@@ -200,6 +217,8 @@ ul.pagination li > .page.active:hover {
 #header .logo img {
     background-color: #fa7268;
     background-color: #bf3026;
+    background-color: #932017;
+    padding: 0.33rem 1rem;
 }
 
 .inner img {
