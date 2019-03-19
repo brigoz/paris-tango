@@ -23,6 +23,14 @@ title = "Events, festivals and Tango championships"
 
 ![](https://res.cloudinary.com/paris-tango/image/upload/v1552446602/IMG_0919.jpg)
 
+![](https://res.cloudinary.com/paris-tango/image/upload/v1553011398/image7.jpg)
+
+![](https://res.cloudinary.com/paris-tango/image/upload/v1553011408/image2.jpg)
+
+![](https://res.cloudinary.com/paris-tango/image/upload/v1553011409/image3.jpg)
+
+![](https://res.cloudinary.com/paris-tango/image/upload/v1553011409/image4.jpg)
+
 ![](https://res.cloudinary.com/paris-tango/image/upload/v1552982937/london2007_Fren_ontlA5faw6.jpg)![](https://res.cloudinary.com/paris-tango/image/upload/v1552982937/london_Frenchcr_acklA5faw6.jpg)![](https://res.cloudinary.com/paris-tango/image/upload/v1552982937/F_F_Ball_2008_leaflet.jpg)![](https://res.cloudinary.com/paris-tango/image/upload/v1552982937/F_F_ball_2009_flyer.jpg)
 
 ![](https://res.cloudinary.com/paris-tango/image/upload/v1552982937/F_F_ball_2011.jpg)
