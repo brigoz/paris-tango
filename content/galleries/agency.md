@@ -5,16 +5,14 @@ image = "/v1552525987/Bs2019_Brigittepix2_2008.jpg"
 title = "Agency"
 
 +++
-![](https://res.cloudinary.com/paris-tango/image/upload/v1552982937/london2007_Fren_ontlA5faw6.jpg)![](https://res.cloudinary.com/paris-tango/image/upload/v1552982937/london_Frenchcr_acklA5faw6.jpg)![](https://res.cloudinary.com/paris-tango/image/upload/v1552982937/F_F_Ball_2008_leaflet.jpg)![](https://res.cloudinary.com/paris-tango/image/upload/v1552982937/F_F_ball_2009_flyer.jpg)
+![](https://res.cloudinary.com/paris-tango/image/upload/v1552984527/F_F-2010_A_A_teaching.jpg)
 
-![](https://res.cloudinary.com/paris-tango/image/upload/v1552982937/F_F_ball_2011.jpg)
+Fire & Flame ball 2010 Adrian & Amanda Costa
 
-![](https://res.cloudinary.com/paris-tango/image/upload/v1552983639/Juvenal_Leaflet_Aug_2011.jpg)
+![](https://res.cloudinary.com/paris-tango/image/upload/v1552984527/June_2013Ws_with_Alejandro_Hermida.jpg)Alejandro Hermida June 2013
 
-![](https://res.cloudinary.com/paris-tango/image/upload/v1552983639/Flyer_Juvenal_2012_With_Graciela_Diego.jpg)
+![](https://res.cloudinary.com/paris-tango/image/upload/v1552984715/Paris_with_Luis_Aug_2014.jpg)  
+Paris with Luis 2014
 
-![](https://res.cloudinary.com/paris-tango/image/upload/v1552985238/Paula_Ballesteros_Alejandro_Hermidaflyer_June_2013.jpg)
-
-![](https://res.cloudinary.com/paris-tango/image/upload/v1552985238/G_D-FlyerSeptOct2013.jpg)
-
-![](https://res.cloudinary.com/paris-tango/image/upload/v1552985238/V_A-Flyer_London-NovDec2013.jpg)
+![](https://res.cloudinary.com/paris-tango/image/upload/v1552984716/with_John_Clarissa_16112012.jpg)  
+With John Erban & Clarissa Sanchez 16/11/2012
