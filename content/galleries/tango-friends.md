@@ -15,6 +15,23 @@ title = "Tango Friends"
 
 Fire & Flame ball 2010 Adrian & Amanda Costa
 
-![](https://res.cloudinary.com/paris-tango/image/upload/v1552984527/June_2013Ws_with_Alejandro_Hermida.jpg)
+![](https://res.cloudinary.com/paris-tango/image/upload/v1552984527/June_2013Ws_with_Alejandro_Hermida.jpg)Alejandro Hermida June 2013
 
-Alejandro Hermida June 2013
+  
+![](https://res.cloudinary.com/paris-tango/image/upload/v1552984715/With_Adrian_Amanda_Ireland_Nov_2009.jpg)  
+With Adrian & Amanda Costa Ireland Nov 2009
+
+![](https://res.cloudinary.com/paris-tango/image/upload/v1552984715/with_Claudio_2013.jpg)  
+With Claudio 2013
+
+![](https://res.cloudinary.com/paris-tango/image/upload/v1552984715/Paris_with_Luis_Aug_2014.jpg)  
+Paris with Luis 2014
+
+![](https://res.cloudinary.com/paris-tango/image/upload/v1552984716/with_John_Clarissa_16112012.jpg)  
+With John Erban & Clarissa Sanchez 16/11/2012
+
+![](https://res.cloudinary.com/paris-tango/image/upload/v1552984716/Championship_2016_with_Sofia.jpg)  
+With Sophia Championship 2016
+
+![](https://res.cloudinary.com/paris-tango/image/upload/v1552984716/B_dancing_F_F_ball_Feb_2010.jpg)  
+Dancing at Fire & Flame ball 2010
