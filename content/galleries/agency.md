@@ -16,3 +16,9 @@ Paris with Luis 2014
 
 ![](https://res.cloudinary.com/paris-tango/image/upload/v1552984716/with_John_Clarissa_16112012.jpg)  
 With John Erban & Clarissa Sanchez 16/11/2012
+
+![](https://res.cloudinary.com/paris-tango/image/upload/v1552995551/Paris_Festival_last_night.jpg)
+
+![](https://res.cloudinary.com/paris-tango/image/upload/v1552995554/Paris_with_Fernando.jpg)
+
+![](https://res.cloudinary.com/paris-tango/image/upload/v1552995555/Paris_with_Jimena_Fernando.jpg)
