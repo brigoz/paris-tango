@@ -123,13 +123,13 @@ disqusShortname = ""
       url = "galleries/agency"
 
     [[params.tiles.showcase]]
-      title = "Photo Gallery: Friends"
+      title = "Friends"
       subtitle = "Some of my dearest tango friends"
       image = "https://res.cloudinary.com/paris-tango/image/upload/v1552445820/CIMG9211.jpg"
       url = "galleries/tango-friends"
 
     [[params.tiles.showcase]]
-      title = "Photo Gallery: Tango Holidays"
+      title = "Tango Holidays"
       subtitle = "Holidays organised by Paris Tango: Paris, Chateau Juvenal, Avignon"
       image = "https://res.cloudinary.com/paris-tango/image/upload/v1552523653/Bs2019_3ParisMilonga2007.jpg"
       url = "galleries/tango-holidays"
