@@ -5,6 +5,8 @@ image = "/v1552445820/CIMG9211.jpg"
 title = "Tango Friends"
 
 +++
+![](https://res.cloudinary.com/paris-tango/image/upload/v1552523653/Bs2019_FriendsRicardo2.jpg)
+
 ![](https://res.cloudinary.com/paris-tango/image/upload/v1552523653/IMG_0900.jpg)
 
 ![](https://res.cloudinary.com/paris-tango/image/upload/v1552523185/Bs2019_1PareeeeBabes2006.jpg)
@@ -22,3 +24,7 @@ With Sophia Championship 2016
 
 ![](https://res.cloudinary.com/paris-tango/image/upload/v1552984716/B_dancing_F_F_ball_Feb_2010.jpg)  
 Dancing at Fire & Flame ball 2010
+
+![](https://res.cloudinary.com/paris-tango/image/upload/v1552523653/Bs2019_FriendsMonica.jpg)
+
+![](https://res.cloudinary.com/paris-tango/image/upload/v1552523653/Bs2019_FriendsOmar.jpg)
