@@ -16,7 +16,7 @@ fields:
   label: Gallery image
   description: Masthead image for the gallery
 pages:
+- content/galleries/brigitte-and-partners.md
 - content/galleries/tango-holidays.md
 - content/galleries/tango-friends.md
-- content/galleries/brigitte-and-partners.md
 - content/galleries/tango-championships.md
