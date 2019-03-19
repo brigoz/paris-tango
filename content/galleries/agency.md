@@ -22,3 +22,11 @@ With John Erban & Clarissa Sanchez 16/11/2012
 ![](https://res.cloudinary.com/paris-tango/image/upload/v1552995554/Paris_with_Fernando.jpg)
 
 ![](https://res.cloudinary.com/paris-tango/image/upload/v1552995555/Paris_with_Jimena_Fernando.jpg)
+
+![](https://res.cloudinary.com/paris-tango/image/upload/v1552523644/P1010075.jpg)
+
+![](https://res.cloudinary.com/paris-tango/image/upload/v1552523644/P1010060.jpg)
+
+![](https://res.cloudinary.com/paris-tango/image/upload/v1552985821/CIMG4145.jpg)
+
+![](https://res.cloudinary.com/paris-tango/image/upload/v1552985821/CIMG4144.jpg)

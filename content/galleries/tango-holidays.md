@@ -13,14 +13,6 @@ title = "Tango Holidays"
 
 ![](https://res.cloudinary.com/paris-tango/image/upload/v1552523653/Bs2019_3ParisMilonga2007.jpg)
 
-![](https://res.cloudinary.com/paris-tango/image/upload/v1552523644/P1010075.jpg)
-
-![](https://res.cloudinary.com/paris-tango/image/upload/v1552523644/P1010060.jpg)
-
-![](https://res.cloudinary.com/paris-tango/image/upload/v1552985821/CIMG4145.jpg)
-
-![](https://res.cloudinary.com/paris-tango/image/upload/v1552985821/CIMG4144.jpg)
-
 ![](https://res.cloudinary.com/paris-tango/image/upload/v1552522838/10724_131648626161_542346161_2384479_4938704_n.jpg)
 
 ![](https://res.cloudinary.com/paris-tango/image/upload/v1552523463/10724_131648841161_542346161_2384509_2195398_n.jpg)
