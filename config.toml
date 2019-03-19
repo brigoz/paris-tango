@@ -111,14 +111,14 @@ disqusShortname = ""
       url = "events"
 
     [[params.tiles.showcase]]
-      title = "Photo Gallery: Championships"
-      subtitle = "Tango championships and festivals"
+      title = "Events and Festivals"
+      subtitle = "Events, festivals and championships"
       image = "https://res.cloudinary.com/paris-tango/image/upload/v1552521474/F_F-2010_dancers_212.jpg"
       url = "galleries/tango-championships"
 
     [[params.tiles.showcase]]
-      title = "Photo Gallery: Brigitte"
-      subtitle = "Brigitte's agency"
+      title = "Agency"
+      subtitle = "Brigitte and her clients"
       image = "https://res.cloudinary.com/paris-tango/image/upload/v1552525987/Bs2019_Brigittepix2_2008.jpg"
       url = "galleries/brigitte-and-partners"
 

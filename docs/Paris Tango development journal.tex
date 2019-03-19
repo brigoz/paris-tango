@@ -1,4 +1,4 @@
-% Created 2019-02-12 Tue 02:45
+% Created 2019-03-14 Thu 01:18
 % Intended LaTeX compiler: pdflatex
 \documentclass{article}
                \usepackage{hyperref}
@@ -34,7 +34,7 @@
 
 
 \section{Project Summary}
-\label{sec:org6c6ee31}
+\label{sec:orgc581e50}
 This project sets out to modernise the current, static, Paris Tango website,
 originally designed by me in 2008. Since then many things have changed: desktop
 programs allowing visual editing of the static code have been dropped and are no
@@ -62,16 +62,16 @@ renew TLS certificates, and to remove any further need to worry about website
 hosting, concentrating only on the content.
 
 \section{Preparation}
-\label{sec:org0216d56}
+\label{sec:org577d835}
 
 \subsection{Requirements-gathering}
-\label{sec:org75ee063}
+\label{sec:org05b8dea}
 
 \subsection{Collecting necessary technical information}
-\label{sec:org942ed9c}
+\label{sec:orgdf69b3b}
 
 \subsection{Obtaining all assets}
-\label{sec:orgef87666}
+\label{sec:org13402a1}
 To build a completely new website, we need to use a completely new set of
 images; in the process of first developing the site, it was enough to get images
 (photos, newspaper and magazine scans) with a resolution of up to 1024 pixels,
@@ -106,28 +106,47 @@ add atmosphere to the website, as well as images of specific events whose
 presence is going to be kept up to provide \emph{history} and artistic merit.
 
 \subsection{Creation of all necessary service provider accounts}
-\label{sec:orgb661e38}
+\label{sec:orgacc69fe}
 
 \section{Building the Site}
-\label{sec:org7124ad8}
+\label{sec:org857acef}
 
 \subsection{Preparation of new website repository}
-\label{sec:org0ddd042}
+\label{sec:org3f507c1}
 
+\subsection{Preparation of special content types}
+\label{sec:org34a4205}
+An events type of page is necessary to deal with organising and presenting a
+growing list of tango events. This requires the definition of a specific
+\emph{archetype} as well as \emph{layouts} or \emph{views} for presenting the events as
+individual pages or a listing.
 
 \subsection{Migration of existing content to new platform}
-\label{sec:orgdf4a8a0}
+\label{sec:org737d152}
 In this stage, all the content from the legacy site is copied from the existing,
 legacy website to the new Hugo-based one. All pages are recreated, and any
 \emph{custom} content, events in our case, are modelled and built as \emph{fields} in the
 site generator.
 
+\subsection{Asset optimisation}
+\label{sec:orgb6a28f9}
+All imagery used is uploaded onto the Cloudinary server, where Forestry.io can
+find it to use it in the content management system. But, it isn't enough to
+simply upload all the images as they are; many photos are huge, which is useful
+to get the best quality out of them, but it's very wasteful, too. As a
+preliminary step, all photos will be resized to a maximum width of 1920 pixels,
+then optimised heavily, before uploading to Cloudinary.
+
+The images are optimised by creating a copy of the containing folder, after
+which all images are opened in macOS Preview, and resized to a maximum of 1920
+pixels width.
+
 
 \subsection{Crafting a new look for the web site}
-\label{sec:org9e5e51e}
+\label{sec:org059d975}
 
 \subsubsection{Selecting and installing a theme}
-\label{sec:org7f8f946}
+\label{sec:orge73ec23}
 To keep development costs down, instead of designing a fully custom them, we
 will make use of one of the existing, provided, \emph{\href{https://themes.gohugo.io/aether/}{themes}} for Hugo: \href{https://themes.gohugo.io/forty/}{Forty}, and customise
 that to a limited extent. Forty was chosen out of a possible further choice of
@@ -138,7 +157,7 @@ both more recently maintained, and more generally flexible for generic website
 use.
 
 \subsubsection{Customising the base theme}
-\label{sec:orgf3cd37b}
+\label{sec:orgfbfd030}
 Forty, the theme we're basing the entire look of the new site on, at least in
 early 2019, carries its own developer's opinions which show up as aesthetic
 choices across the theme. While this theme is elegant and looks good, it's not
@@ -158,33 +177,82 @@ blue-tinted overlay, which has to change to better hew to the orange hues of the
 website. My starting point is to use a more complementary colour for the
 overlay, to fit the orange theme, and to make the background image more vivid
 while at the same time reducing its contrast. To this end, I've chosen the
-Pantone colour of the year (2019), \emph{Living Coral}, with a peachy-orange hue
-(RGB: 250, 114, 104 | Hex: FA7268), with an opacity of 0.5 to hide certain dull
-details present in the image.
+\href{https://www.pantone.com/color-intelligence/color-of-the-year/color-of-the-year-2019}{Pantone colour of the year 2019}, \emph{\href{https://www.pantone.com/color-finder/16-1546-TPX}{Living Coral (16-1546)}}, with a peachy-orange
+hue (RGB: 250, 114, 104 | Hex: FA7268), with an opacity of 0.5 to hide certain
+dull details present in the image.
+
+\section{Deploying the New Website}
+\label{sec:org43c8dd5}
+\subsection{Change DNS records}
+\label{sec:org6e341e4}
+The domain name is registered with \href{https://godaddy.com/}{GoDaddy}, using their default nameservers:
+
+\begin{enumerate}
+\item ns09.domaincontrol.com
+\item ns10.domaincontrol.com
+\end{enumerate}
+
+The following are all the DNS entries recorded for paris-tango.co.uk:
+
+\begin{center}
+\begin{tabular}{llll}
+Type & Name & Value & TTL\\
+\hline
+A & @ & 160.153.129.215 & 10800\\
+A & admin & 160.153.129.215 & 10800\\
+A & mail & 160.153.129.215 & 10800\\
+CNAME & autodiscover & autodiscover.outlook.com & 1 hour\\
+CNAME & cpanel & @ & 10800\\
+CNAME & selector1.\textsubscript{domainkey.paris}-tango.co.uk & selector1-paris-tango-co-uk.\textsubscript{domainkey.paristango.onmicrosoft.com} & 1 hour\\
+CNAME & selector2.\textsubscript{domainkey.paris}-tango.co.uk & selector2-paris-tango-co-uk.\textsubscript{domainkey.paristango.onmicrosoft.com} & 1 hour\\
+CNAME & webdisk & @ & 10800\\
+CNAME & webdisk.admin & @ & 10800\\
+CNAME & whm & @ & 10800\\
+CNAME & www & @ & 10800\\
+CNAME & www.admin & @ & 10800\\
+CNAME & \_domainconnect & \_domainconnect.gd.domaincontrol.com & 1 hour\\
+MX & @ & paristango-co-uk01c.mail.protection.outlook.com & 1 hour\\
+NS & @ & ns09.domaincontrol.com & 1 hour\\
+NS & @ & ns10.domaincontrol.com & 1 hour\\
+SOA & @ & Primary nameserver: ns09.domaincontrol.com & 1 hour\\
+TXT & @ & v=spf1 include:spf.protection.outlook.com -all & 1 hour\\
+TXT & selector1.\textsubscript{domainkey} & selector1-paris-tango-co-uk.\textsubscript{domainkey.paristango.onmicrosoft.com} & 1 hour\\
+\end{tabular}
+\end{center}
+
+
+\subsection{Implement final corrections}
+\label{sec:orgb20198d}
+
 
 \section{Time Log}
-\label{sec:org3c3927a}
+\label{sec:org4ce2d54}
 
 \begin{table}[htbp]
-\caption{Clock summary at \textit{[2019-02-12 Tue 02:45]}}
+\caption{Clock summary at \textit{[2019-03-14 Thu 01:17]}}
 \centering
 \begin{tabular}{lrrl}
 Headline & Time &  & \\
 \hline
-\textbf{Total time} & \textbf{12:50} &  & \\
+\textbf{Total time} & \textbf{30:13} &  & \\
 \hline
 Project Summary & 1:01 &  & \\
-Preparation & 6:00 &  & \\
+Preparation & 7:15 &  & \\
 \hspace*{1.0em}Requirements-gathering &  & 2:00 & \\
 \hspace*{1.0em}Collecting necessary technical\ldots{} &  & 1:10 & \\
-\hspace*{1.0em}Obtaining all assets &  & 1:40 & \\
-\hspace*{1.0em}Creation of all necessary service\ldots{} &  & 1:10 & \\
-Building the Site & 5:49 &  & \\
-\hspace*{1.0em}Preparation of new website repository &  & 1:00 & \\
-\hspace*{1.0em}Migration of existing content to new\ldots{} &  & 1:12 & \\
-\hspace*{1.0em}Crafting a new look for the web site &  & 3:37 & \\
+\hspace*{1.0em}Obtaining all assets &  & 2:19 & \\
+\hspace*{1.0em}Creation of all necessary service\ldots{} &  & 1:46 & \\
+Building the Site & 18:51 &  & \\
+\hspace*{1.0em}Preparation of new website repository &  & 1:26 & \\
+\hspace*{1.0em}Preparation of special content types &  & 1:59 & \\
+\hspace*{1.0em}Migration of existing content to new\ldots{} &  & 4:38 & \\
+\hspace*{1.0em}Asset optimisation &  & 2:25 & \\
+\hspace*{1.0em}Crafting a new look for the web site &  & 8:23 & \\
 \hspace*{2.0em}Selecting and installing a theme &  &  & 2:50\\
-\hspace*{2.0em}Customising the base theme &  &  & 0:47\\
+\hspace*{2.0em}Customising the base theme &  &  & 5:33\\
+Deploying the New Website & 3:06 &  & \\
+\hspace*{1.0em}Change DNS records &  & 1:05 & \\
+\hspace*{1.0em}Implement final corrections &  & 0:22 & \\
 \end{tabular}
 \end{table}
 \end{document}

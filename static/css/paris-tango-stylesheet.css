@@ -27,9 +27,9 @@ body {
 
 #main {
     background-color: #dd4c41;
-    background-color: #bf3026;
-    background-color: #a01c13;
-    background-color: #820f07;
+    /* background-color: #bf3026; */
+    /* background-color: #a01c13; */
+    /* background-color: #820f07; */
 }
 
 #menu {
@@ -56,6 +56,8 @@ textarea {
     background: rgba(253, 150, 93, 1);
     background-color: #bf3026;
     background: rgba(191, 48, 38, 1);
+
+    background: rgba(228, 104, 95, 1);
     font-weight: 900;
 }
 
