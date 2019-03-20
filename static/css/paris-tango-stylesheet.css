@@ -154,6 +154,20 @@ table tbody tr:nth-child(2n + 1) {
     background-color: rgba(255, 190, 185, 0.95);
 }
 
+.tiles--alternate article {
+		width: 40%;
+}
+
+.tiles--alternate article:nth-child(4n - 0),
+.tiles--alternate article:nth-child(4n - 3) {
+		width: 60%;
+}
+
+.tiles--alternate article:nth-child(4n - 1),
+.tiles--alternate article:nth-child(4n - 2) {
+		width: 40%;
+}
+
 .tiles article::before {
     opacity: 0.45;
 }

@@ -269,6 +269,7 @@ The following are all the DNS entries recorded for paris-tango.co.uk:
 
 ** Implement final corrections
    :LOGBOOK:
+   CLOCK: [2019-03-20 Wed 17:49]--[2019-03-20 Wed 18:26] =>  0:37
    CLOCK: [2019-03-20 Wed 17:37]--[2019-03-20 Wed 17:46] =>  0:09
    CLOCK: [2019-03-19 Tue 15:15]--[2019-03-19 Tue 16:08] =>  0:53
    CLOCK: [2019-03-19 Tue 11:22]--[2019-03-19 Tue 11:55] =>  0:33
@@ -298,14 +299,22 @@ The following are all the DNS entries recorded for paris-tango.co.uk:
    /label/ text appears next to the icon. By default, only the icon shows, but
    the image used in the icon can be ambiguous, so additionally write i.e. ``Facebook
    page'' next to the icon.
+   
+   Out of the box, the template comes with a single brickwork-like section to
+   display a showcase. As we have decided to use it multiply, for featured pages
+   and photo galleries, it started to lose visual distinction. To add a
+   configurable section between needed changes in the =config.toml= file, as
+   well as the =tile.html= layout file. It is now possible to enable or disable
+   the entire photo gallery section, or just the separator with the title and subtitle.
+
 
 * Time Log
 
 #+BEGIN: clocktable :maxlevel 3 :scope file
-#+CAPTION: Clock summary at [2019-03-19 Tue 16:09]
+#+CAPTION: Clock summary at [2019-03-20 Wed 18:26]
 | Headline                                    |    Time |      |      |
 |---------------------------------------------+---------+------+------|
-| *Total time*                                | *33:00* |      |      |
+| *Total time*                                | *33:46* |      |      |
 |---------------------------------------------+---------+------+------|
 | Project Summary                             |    1:01 |      |      |
 | Preparation                                 |    7:15 |      |      |
@@ -321,7 +330,7 @@ The following are all the DNS entries recorded for paris-tango.co.uk:
 | \_  Crafting a new look for the web site    |         | 8:32 |      |
 | \_    Selecting and installing a theme      |         |      | 2:50 |
 | \_    Customising the base theme            |         |      | 5:42 |
-| Deploying the New Website                   |    5:44 |      |      |
+| Deploying the New Website                   |    6:30 |      |      |
 | \_  Change DNS records                      |         | 1:05 |      |
-| \_  Implement final corrections             |         | 3:00 |      |
+| \_  Implement final corrections             |         | 3:46 |      |
 #+END:
