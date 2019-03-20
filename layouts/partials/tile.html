@@ -1,6 +1,6 @@
 {{ "<!-- Header -->" | safeHTML }}
     <section id="one" class="tiles">
-        {{ range .Site.Params.Tiles.showcase }}
+        {{ range .Site.Params.Tiles.featuredPage }}
         <article>
             <span class="image">
                 <!-- <img src="{{ .Site.Params.baseURL }}img/{{ .image }}" alt="" /> -->
@@ -13,3 +13,28 @@
         </article>
         {{ end }}
     </section>
+
+		{{ if .Site.Params.Tiles.photoGallerySection.enableSection }}
+		{{ if .Site.Params.Tiles.photoGallerySection.enableSeparatorSection }}
+    <div class="inner">
+        <header class="major">
+            <h2>{{ .Site.Params.Tiles.photoGallerySection.title }}</h2>
+        </header>
+        <p>{{ .Site.Params.Tiles.photoGallerySection.subtitle }}</p>
+    </div>
+    {{ end }}
+
+    <section id="one_galleries" class="tiles">
+        {{ range .Site.Params.Tiles.photoGallery }}
+        <article>
+            <span class="image">
+                <img src="{{ .image }}" alt="" />
+            </span>
+            <header class="major">
+                <h3><a href="{{ .url | absURL }}" class="link">{{ .title }}</a></h3>
+                <p>{{ .subtitle }}</p>
+            </header>
+        </article>
+        {{ end }}
+    </section>
+    {{ end }}

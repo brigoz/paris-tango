@@ -96,44 +96,55 @@ disqusShortname = ""
   # Tiles Section
   [params.tiles]
     enable = true
-    # Display your showcases here.
+    # Display your showcases here in even pairs as the layout
+    # is designed to display two tiles side-by-side
     
-    [[params.tiles.showcase]]
+    # The first tile section is for the display of featured pages
+    [[params.tiles.featuredPage]]
       title = "History"
       subtitle = "About Brigitte"
       image = "https://res.cloudinary.com/paris-tango/image/upload/v1552521473/Brigitte_Martin-_original-_2008.jpg"
       url = "about-us"
 
-    [[params.tiles.showcase]]
+    [[params.tiles.featuredPage]]
       title = "Events"
       subtitle = "Our upcoming and past events"
       image = "https://res.cloudinary.com/paris-tango/image/upload/v1552521474/F_F-2010_portraits_201.jpg"
       url = "events"
 
-    [[params.tiles.showcase]]
+
+    # The second tile section is for the display of photo galleries
+    [params.tiles.photoGallerySection]
+    enableSection = true        # enable the photo gallery section
+    enableSeparatorSection = true # enable a separator with a title and subtitle
+
+    title = "Photo Galleries"
+    subtitle = """Browse through photo galleries of our past events, festivals and championships; see with whom we've worked over the years, our tango friends and holidays."""
+
+    [[params.tiles.photoGallery]]
       title = "Events and Festivals"
       subtitle = "Events, festivals and championships"
       image = "https://res.cloudinary.com/paris-tango/image/upload/v1552521474/F_F-2010_dancers_212.jpg"
       url = "galleries/events-festivals-and-tango-championships"
 
-    [[params.tiles.showcase]]
+    [[params.tiles.photoGallery]]
       title = "Agency"
       subtitle = "Brigitte and her clients"
       image = "https://res.cloudinary.com/paris-tango/image/upload/v1552525987/Bs2019_Brigittepix2_2008.jpg"
       url = "galleries/agency"
 
-    [[params.tiles.showcase]]
+    [[params.tiles.photoGallery]]
       title = "Friends"
       subtitle = "Some of my dearest tango friends"
       image = "https://res.cloudinary.com/paris-tango/image/upload/v1552445820/CIMG9211.jpg"
       url = "galleries/tango-friends"
 
-    [[params.tiles.showcase]]
+    [[params.tiles.photoGallery]]
       title = "Tango Holidays"
       subtitle = "Holidays organised by Paris Tango: Paris, Chateau Juvenal, Avignon"
       image = "https://res.cloudinary.com/paris-tango/image/upload/v1552523653/Bs2019_3ParisMilonga2007.jpg"
       url = "galleries/tango-holidays"
-    # You can make more showcases by copy and pasting the code above
+    # You can make more showcases by copy and pasting the code above, in pairs
 
   [params.blog]
     # All blogs defined in their own files. You can find example blogs

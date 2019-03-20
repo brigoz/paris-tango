@@ -269,6 +269,7 @@ The following are all the DNS entries recorded for paris-tango.co.uk:
 
 ** Implement final corrections
    :LOGBOOK:
+   CLOCK: [2019-03-20 Wed 17:37]--[2019-03-20 Wed 17:46] =>  0:09
    CLOCK: [2019-03-19 Tue 15:15]--[2019-03-19 Tue 16:08] =>  0:53
    CLOCK: [2019-03-19 Tue 11:22]--[2019-03-19 Tue 11:55] =>  0:33
    CLOCK: [2019-03-19 Tue 07:53]--[2019-03-19 Tue 09:00] =>  1:07
