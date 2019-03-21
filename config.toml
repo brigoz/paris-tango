@@ -130,7 +130,7 @@ disqusShortname = ""
     [[params.tiles.photoGallery]]
       title = "Agency"
       subtitle = "Brigitte and her clients"
-      image = "https://res.cloudinary.com/paris-tango/image/upload/v1552525987/Bs2019_Brigittepix2_2008.jpg"
+      image = "https://res.cloudinary.com/paris-tango/image/upload/v1552525987/Bs2019_Brigittepix2_2008.v4-resized.jpg"
       url = "galleries/agency"
 
     [[params.tiles.photoGallery]]
