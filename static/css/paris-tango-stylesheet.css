@@ -10,8 +10,6 @@
 */
 
 body {
-    background-color: #FA7268;
-    background-color: #380a07;
     background-color: #932017;
     background-image: linear-gradient(to bottom, #000000 10%, #2a1015 70%, #4d131c 80%, #71171d 90%, #932017 100%);
 }
@@ -27,13 +25,9 @@ body {
 
 #main {
     background-color: #dd4c41;
-    /* background-color: #bf3026; */
-    /* background-color: #a01c13; */
-    /* background-color: #820f07; */
 }
 
 #menu {
-    background: rgba(147,32,23,0.7);
     background: rgba(104,19,12,0.7);
 }
 
@@ -50,21 +44,15 @@ input[type="search"],
 input[type="url"],
 select,
 textarea {
-    background: rgba(255, 151, 143, 0.035);
-    background: rgba(255, 190, 185, 0.95);
-    background: rgba(255, 255, 255, 0.6);
-    background: rgba(253, 150, 93, 1);
-    background-color: #bf3026;
-    background: rgba(191, 48, 38, 1);
-
     background: rgba(228, 104, 95, 1);
     font-weight: 900;
 }
 
 input[type="checkbox"] + label:before,
 input[type="radio"] + label:before {
-    background: rgba(253, 150, 93, 1);
+    background: rgba(228, 104, 95, 1);
 }
+
 input[type="submit"]:hover, input[type="submit"]:active,
 input[type="reset"]:hover,
 input[type="reset"]:active,
@@ -87,7 +75,20 @@ button.special:hover,
 button.special:active,
 .button.special:hover,
 .button.special:active {
-		background-color: #fa7268;
+    background: rgba(228, 104, 95, 1);
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+input[type="search"]:focus,
+input[type="url"]:focus,
+select:focus,
+textarea:focus,
+table tbody tr,
+table.alt tbody tr td {
+		border-color: #fa7268;
 }
 
 input[type="text"]:focus,
@@ -98,24 +99,26 @@ input[type="search"]:focus,
 input[type="url"]:focus,
 select:focus,
 textarea:focus {
-		border-color: #fa7268;
-		box-shadow: 0 0 0 2px #f2cc8f;
+    box-shadow: 0 0 0 2px #f2cc8f;
 }
 
 .box {
     border: 1px solid rgba(255, 190, 185, 0.95);
 }
 
-#footer .copyright li {
+#footer .copyright li,
+.select-wrapper:before {
     color: rgba(255, 190, 185, 0.95);
 }
 
-blockquote {
+blockquote,
+#footer .copyright li {
     border-left-color: rgba(255, 190, 185, 0.95);
 }
 
-code {
-    background: rgba(255, 190, 185, 0.95);
+code,
+table tbody tr:nth-child(2n + 1) {
+    background-color: rgba(255, 190, 185, 0.95);
 }
 
 hr,
@@ -123,10 +126,6 @@ table thead,
 #main.alt,
 #contact {
     border-bottom-color: rgba(255, 190, 185, 0.95);
-}
-
-.select-wrapper:before {
-    color: rgba(255, 190, 185, 0.95);
 }
 
 #main > *,
@@ -139,19 +138,6 @@ table tfoot,
 
 #contact > .inner > :nth-child(2n - 1) {
     border-right-color: rgba(255, 190, 185, 0.95);
-}
-
-#footer .copyright li {
-    border-left-color: rgba(255, 190, 185, 0.95);
-}
-
-table tbody tr,
-table.alt tbody tr td {
-    border-color: rgba(255, 190, 185, 0.95);
-}
-
-table tbody tr:nth-child(2n + 1) {
-    background-color: rgba(255, 190, 185, 0.95);
 }
 
 .tiles--alternate article {
@@ -181,12 +167,8 @@ table tbody tr:nth-child(2n + 1) {
 }
 
 a:hover,
+a:active,
 #header .logo:hover strong {
-    color: #fa7268;
-    color: #f2cc8f; 
-}
-
-a:active {
     color: #f2cc8f; 
 }
 
@@ -228,8 +210,6 @@ ul.pagination li > .page.active:hover {
 }
 
 #header .logo img {
-    background-color: #fa7268;
-    background-color: #bf3026;
     background-color: #932017;
     padding: 0.33rem 1rem;
 }
@@ -245,13 +225,21 @@ ul.pagination li > .page.active:hover {
     width: 30%;
 }
 
+.gallery-main p,
 .gallery-main img {
     display: block;
-    margin: 1.5rem auto;
+    margin: 0 auto;
+}
+
+.gallery-main p {
     width: 75%;
+}
+
+.gallery-main img {
+    margin: 1.5rem auto;
+    width: 100%;
 }
 
 .main--clear {
     clear: both;
 }
-
