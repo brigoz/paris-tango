@@ -119,7 +119,7 @@ disqusShortname = ""
     enableSeparatorSection = true # enable a separator with a title and subtitle
 
     title = "Photo Galleries"
-    subtitle = """Browse through photo galleries of our past events, festivals and championships; see with whom we've worked over the years, our tango friends and holidays."""
+    subtitle = """Browse through photo galleries of my past events, festivals and championships; see with whom I've worked over the years, my tango friends and holidays."""
 
     [[params.tiles.photoGallery]]
       title = "Events and Festivals"

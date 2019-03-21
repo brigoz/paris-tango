@@ -305,7 +305,13 @@ The following are all the DNS entries recorded for paris-tango.co.uk:
    and photo galleries, it started to lose visual distinction. To add a
    configurable section between needed changes in the =config.toml= file, as
    well as the =tile.html= layout file. It is now possible to enable or disable
-   the entire photo gallery section, or just the separator with the title and subtitle.
+   the entire photo gallery section, or just the separator with the title and
+   subtitle. Also, the change meant that the tile section repeated layout, with
+   the narrow tile on the left, followed by a wide (60%) tile, followed in the
+   second line by a wide then narrow tile again. This was visually jarring,
+   ruining visual consistency, leading to a specification of styles for an
+   alternate tile section, with class =tile--alternate= specifying which layout
+   the section is to take.
 
 
 * Time Log
