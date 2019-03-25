@@ -1,4 +1,4 @@
-% Created 2019-03-14 Thu 01:18
+% Created 2019-03-21 Thu 08:47
 % Intended LaTeX compiler: pdflatex
 \documentclass{article}
                \usepackage{hyperref}
@@ -34,7 +34,7 @@
 
 
 \section{Project Summary}
-\label{sec:orgc581e50}
+\label{sec:org1728773}
 This project sets out to modernise the current, static, Paris Tango website,
 originally designed by me in 2008. Since then many things have changed: desktop
 programs allowing visual editing of the static code have been dropped and are no
@@ -62,16 +62,16 @@ renew TLS certificates, and to remove any further need to worry about website
 hosting, concentrating only on the content.
 
 \section{Preparation}
-\label{sec:org577d835}
+\label{sec:org9fe5558}
 
 \subsection{Requirements-gathering}
-\label{sec:org05b8dea}
+\label{sec:orgf860396}
 
 \subsection{Collecting necessary technical information}
-\label{sec:orgdf69b3b}
+\label{sec:orga63dbe8}
 
 \subsection{Obtaining all assets}
-\label{sec:org13402a1}
+\label{sec:org7ea624a}
 To build a completely new website, we need to use a completely new set of
 images; in the process of first developing the site, it was enough to get images
 (photos, newspaper and magazine scans) with a resolution of up to 1024 pixels,
@@ -106,30 +106,30 @@ add atmosphere to the website, as well as images of specific events whose
 presence is going to be kept up to provide \emph{history} and artistic merit.
 
 \subsection{Creation of all necessary service provider accounts}
-\label{sec:orgacc69fe}
+\label{sec:org4752663}
 
 \section{Building the Site}
-\label{sec:org857acef}
+\label{sec:org4ea48d8}
 
 \subsection{Preparation of new website repository}
-\label{sec:org3f507c1}
+\label{sec:org52aff36}
 
 \subsection{Preparation of special content types}
-\label{sec:org34a4205}
+\label{sec:org931c2bd}
 An events type of page is necessary to deal with organising and presenting a
 growing list of tango events. This requires the definition of a specific
 \emph{archetype} as well as \emph{layouts} or \emph{views} for presenting the events as
 individual pages or a listing.
 
 \subsection{Migration of existing content to new platform}
-\label{sec:org737d152}
+\label{sec:orgc376395}
 In this stage, all the content from the legacy site is copied from the existing,
 legacy website to the new Hugo-based one. All pages are recreated, and any
 \emph{custom} content, events in our case, are modelled and built as \emph{fields} in the
 site generator.
 
 \subsection{Asset optimisation}
-\label{sec:orgb6a28f9}
+\label{sec:orgcf41f84}
 All imagery used is uploaded onto the Cloudinary server, where Forestry.io can
 find it to use it in the content management system. But, it isn't enough to
 simply upload all the images as they are; many photos are huge, which is useful
@@ -143,10 +143,10 @@ pixels width.
 
 
 \subsection{Crafting a new look for the web site}
-\label{sec:org059d975}
+\label{sec:org30718be}
 
 \subsubsection{Selecting and installing a theme}
-\label{sec:orge73ec23}
+\label{sec:orgfe0b241}
 To keep development costs down, instead of designing a fully custom them, we
 will make use of one of the existing, provided, \emph{\href{https://themes.gohugo.io/aether/}{themes}} for Hugo: \href{https://themes.gohugo.io/forty/}{Forty}, and customise
 that to a limited extent. Forty was chosen out of a possible further choice of
@@ -157,7 +157,7 @@ both more recently maintained, and more generally flexible for generic website
 use.
 
 \subsubsection{Customising the base theme}
-\label{sec:orgfbfd030}
+\label{sec:orga0df261}
 Forty, the theme we're basing the entire look of the new site on, at least in
 early 2019, carries its own developer's opinions which show up as aesthetic
 choices across the theme. While this theme is elegant and looks good, it's not
@@ -179,12 +179,13 @@ overlay, to fit the orange theme, and to make the background image more vivid
 while at the same time reducing its contrast. To this end, I've chosen the
 \href{https://www.pantone.com/color-intelligence/color-of-the-year/color-of-the-year-2019}{Pantone colour of the year 2019}, \emph{\href{https://www.pantone.com/color-finder/16-1546-TPX}{Living Coral (16-1546)}}, with a peachy-orange
 hue (RGB: 250, 114, 104 | Hex: FA7268), with an opacity of 0.5 to hide certain
-dull details present in the image.
+dull details present in the image. The rest of the monochrome colour scheme is
+in this palette: \url{https://coolors.co/820f07-a01c13-bf3026-fa7268-ff9189}.
 
 \section{Deploying the New Website}
-\label{sec:org43c8dd5}
+\label{sec:org6988b37}
 \subsection{Change DNS records}
-\label{sec:org6e341e4}
+\label{sec:orga46cdb7}
 The domain name is registered with \href{https://godaddy.com/}{GoDaddy}, using their default nameservers:
 
 \begin{enumerate}
@@ -222,19 +223,51 @@ TXT & selector1.\textsubscript{domainkey} & selector1-paris-tango-co-uk.\textsub
 
 
 \subsection{Implement final corrections}
-\label{sec:orgb20198d}
+\label{sec:orgbaeebc4}
+The photographs I selected to put in their respective galleries aren't
+correct, adequate or doing the job. Brigitte has re-sent what appears to be
+the same set of images she already provided throughout the project, but
+sorted into albums this time, making it easy to download, manipulate them for
+maximum size, optimise them, upload them to Cloudinary and finally to insert
+them into their respective album.
+
+Updated galleries, in a live telephone conference with Brigitte, moving
+contents out of agency into events and festivals, moving certain imagery from
+friends to agency, and adding images to all three as per instructions.
+
+Change colour of logo backing box to be the same darker shade of the primary
+colour as used in the footer of the page, in the social media icons section.
+Also, add a little bit of sideways margin to let the logo \emph{breathe} a little.
+
+Update templated social icons in page footer: ensure that the social icon
+\emph{label} text appears next to the icon. By default, only the icon shows, but
+the image used in the icon can be ambiguous, so additionally write i.e. ``Facebook
+page'' next to the icon.
+
+Out of the box, the template comes with a single brickwork-like section to
+display a showcase. As we have decided to use it multiply, for featured pages
+and photo galleries, it started to lose visual distinction. To add a
+configurable section between needed changes in the \texttt{config.toml} file, as
+well as the \texttt{tile.html} layout file. It is now possible to enable or disable
+the entire photo gallery section, or just the separator with the title and
+subtitle. Also, the change meant that the tile section repeated layout, with
+the narrow tile on the left, followed by a wide (60\%) tile, followed in the
+second line by a wide then narrow tile again. This was visually jarring,
+ruining visual consistency, leading to a specification of styles for an
+alternate tile section, with class \texttt{tile-{}-alternate} specifying which layout
+the section is to take.
 
 
 \section{Time Log}
-\label{sec:org4ce2d54}
+\label{sec:org0c5bcad}
 
 \begin{table}[htbp]
-\caption{Clock summary at \textit{[2019-03-14 Thu 01:17]}}
+\caption{Clock summary at \textit{[2019-03-21 Thu 01:59]}}
 \centering
 \begin{tabular}{lrrl}
 Headline & Time &  & \\
 \hline
-\textbf{Total time} & \textbf{30:13} &  & \\
+\textbf{Total time} & \textbf{34:25} &  & \\
 \hline
 Project Summary & 1:01 &  & \\
 Preparation & 7:15 &  & \\
@@ -242,17 +275,17 @@ Preparation & 7:15 &  & \\
 \hspace*{1.0em}Collecting necessary technical\ldots{} &  & 1:10 & \\
 \hspace*{1.0em}Obtaining all assets &  & 2:19 & \\
 \hspace*{1.0em}Creation of all necessary service\ldots{} &  & 1:46 & \\
-Building the Site & 18:51 &  & \\
+Building the Site & 19:00 &  & \\
 \hspace*{1.0em}Preparation of new website repository &  & 1:26 & \\
 \hspace*{1.0em}Preparation of special content types &  & 1:59 & \\
 \hspace*{1.0em}Migration of existing content to new\ldots{} &  & 4:38 & \\
 \hspace*{1.0em}Asset optimisation &  & 2:25 & \\
-\hspace*{1.0em}Crafting a new look for the web site &  & 8:23 & \\
+\hspace*{1.0em}Crafting a new look for the web site &  & 8:32 & \\
 \hspace*{2.0em}Selecting and installing a theme &  &  & 2:50\\
-\hspace*{2.0em}Customising the base theme &  &  & 5:33\\
-Deploying the New Website & 3:06 &  & \\
+\hspace*{2.0em}Customising the base theme &  &  & 5:42\\
+Deploying the New Website & 7:09 &  & \\
 \hspace*{1.0em}Change DNS records &  & 1:05 & \\
-\hspace*{1.0em}Implement final corrections &  & 0:22 & \\
+\hspace*{1.0em}Implement final corrections &  & 4:25 & \\
 \end{tabular}
 \end{table}
 \end{document}
