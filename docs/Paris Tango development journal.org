@@ -269,6 +269,7 @@ The following are all the DNS entries recorded for paris-tango.co.uk:
 
 ** Implement final corrections
    :LOGBOOK:
+   CLOCK: [2019-04-08 Mon 23:21]
    CLOCK: [2019-03-21 Thu 01:20]--[2019-03-21 Thu 01:59] =>  0:39
    CLOCK: [2019-03-20 Wed 17:49]--[2019-03-20 Wed 18:26] =>  0:37
    CLOCK: [2019-03-20 Wed 17:37]--[2019-03-20 Wed 17:46] =>  0:09
@@ -313,6 +314,11 @@ The following are all the DNS entries recorded for paris-tango.co.uk:
    ruining visual consistency, leading to a specification of styles for an
    alternate tile section, with class =tile--alternate= specifying which layout
    the section is to take.
+
+   Another request was to add the list of clients with whom Brigitte has worked
+   in the past. This list comes from the previous website, from the /contact us/
+   page, and will now be displayed in the new site's /about us/ page, also known
+   as /history/.
 
 
 * Time Log
