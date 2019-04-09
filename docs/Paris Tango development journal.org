@@ -269,7 +269,9 @@ The following are all the DNS entries recorded for paris-tango.co.uk:
 
 ** Implement final corrections
    :LOGBOOK:
-   CLOCK: [2019-04-08 Mon 23:21]
+   CLOCK: [2019-04-09 Tue 03:15]
+   CLOCK: [2019-04-09 Tue 00:00]--[2019-04-09 Tue 00:11] =>  0:11
+   CLOCK: [2019-04-08 Mon 23:21]--[2019-04-08 Mon 23:44] =>  0:23
    CLOCK: [2019-03-21 Thu 01:20]--[2019-03-21 Thu 01:59] =>  0:39
    CLOCK: [2019-03-20 Wed 17:49]--[2019-03-20 Wed 18:26] =>  0:37
    CLOCK: [2019-03-20 Wed 17:37]--[2019-03-20 Wed 17:46] =>  0:09
@@ -320,14 +322,26 @@ The following are all the DNS entries recorded for paris-tango.co.uk:
    page, and will now be displayed in the new site's /about us/ page, also known
    as /history/.
 
+   Finally, all Paris Tango past events need to be displayed for a sense of
+   history. As events that have passed have been subsequently truncated, with
+   the full description of the event as well as event photos being removed, the
+   list is now mostly a text list of dates and titles. To enter all these events
+   as separate pages will not make much aesthetic sense, so I am creating a
+   separate page, /past events/, which can be included in the events listing,
+   after the list of all current and newly-formatted events. At the same time,
+   it has come to my attention that event pages aren't being sorted in date
+   order, but in alphabetical /title/ order. This behaviour needs to be changed
+   so that events are sorted in reverse chronological order, so that the latest
+   event is at the top of the page, followed by older ones, to the end, finally
+   followed by the past events listing page.
 
 * Time Log
 
 #+BEGIN: clocktable :maxlevel 3 :scope file
-#+CAPTION: Clock summary at [2019-03-21 Thu 01:59]
+#+CAPTION: Clock summary at [2019-04-09 Tue 00:11]
 | Headline                                    |    Time |      |      |
 |---------------------------------------------+---------+------+------|
-| *Total time*                                | *34:25* |      |      |
+| *Total time*                                | *34:59* |      |      |
 |---------------------------------------------+---------+------+------|
 | Project Summary                             |    1:01 |      |      |
 | Preparation                                 |    7:15 |      |      |
@@ -343,7 +357,7 @@ The following are all the DNS entries recorded for paris-tango.co.uk:
 | \_  Crafting a new look for the web site    |         | 8:32 |      |
 | \_    Selecting and installing a theme      |         |      | 2:50 |
 | \_    Customising the base theme            |         |      | 5:42 |
-| Deploying the New Website                   |    7:09 |      |      |
+| Deploying the New Website                   |    7:43 |      |      |
 | \_  Change DNS records                      |         | 1:05 |      |
-| \_  Implement final corrections             |         | 4:25 |      |
+| \_  Implement final corrections             |         | 4:59 |      |
 #+END:
