@@ -3,7 +3,6 @@ title: History
 date: 2019-01-12 14:33:19 +0000
 description: About Brigitte
 image: "/v1552447593/Bs2019_Brigittepix1_2008.jpg"
-
 ---
 Born and educated in Paris, I studied ballet and piano from the age of 5. Music and dance have always been part of my life. As a child, I joined the Roland Pilain troupe performing regularly with the well known "Théatre du Petit Monde". My Russian father played the violin and I grew up with the sounds of tzigane music and traditional folklore.
 
@@ -17,10 +16,9 @@ When French dancers expressed their desire to dance in London, I organised a tri
 
 I now host events and organise tours for visiting teachers and orquestras. My skill and experience contribute to a successful collaboration with Milonga organisers and performers in the UK and in France. I participate in the planning and running of Tango festivals and events, representing and hosting visiting teachers, performers and musicians.
 
-## My Clients 
+## My clients over the years
 
 <ul class="list pl0 ml0 mw6 ba b--light-silver br3">
-<li class="ph3 pv2 bb b--light-silver">Graciela Gamba & Diego Converti</li>
 <li class="ph3 pv2 bb b--light-silver">Monica Paz</li>
 <li class="ph3 pv2 bb b--light-silver">Jimena Hoeffner & Fernando Carrasco</li>
 <li class="ph3 pv2 bb b--light-silver">Clarissa Sanchez</li>
@@ -39,4 +37,5 @@ I now host events and organise tours for visiting teachers and orquestras. My sk
 <li class="ph3 pv2 bb b--light-silver">Juan Stefanides</li>
 <li class="ph3 pv2 bb b--light-silver">Carlos Quilicci</li>
 <li class="ph3 pv2 bb b--light-silver">Amanda & Adrian Costa</li>
+<li class="ph3 pv2 bb b--light-silver">Graciela Gamba & Diego Converti</li>
 </ul>
