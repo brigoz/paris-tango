@@ -54,6 +54,7 @@ fields:
   label: Archived event image
   description: Provide an informative image to go with an event
 pages:
+- content/archived-events/archived-events.md
+- content/archived-events/amanda-and-adrian-costa-in-uk.md
 - content/archived-events/fire-flame-ball-5th-anniversary-2011.md
 - content/archived-events/amanda-adrian-costa-in-ireland.md
-- content/archived-events/amanda-and-adrian-costa-in-uk.md
