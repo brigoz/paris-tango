@@ -93,12 +93,11 @@ Group lesson, intermediate level</td>
 <td>General class, intermediate level</td>
 </tr>
 <tr>
-<td style="height: 61px;">Sunday, 17th October</td>
-<td style="height: 61px;">14.30–16.00, 16.30–18.00,<br />
-18\.00-20.30 </td>
-<td style="height: 61px;">venue to be announced</td>
-<td style="height: 61px;"><br />
-Workshop 1: Tango, the abrazo - intermediate/advance level<br />
+<td>Sunday, 17th October</td>
+<td>14.30–16.00, 16.30–18.00,<br />
+18.00-20.30 </td>
+<td>venue to be announced</td>
+<td>Workshop 1: Tango, the abrazo - intermediate/advance level<br />
 Workshop 2: Milonga con Traspié - intermediate level<br />
 Practica open to all. For booking, contact <a href="mailto:brigitte@paris-tango.co.uk">Brigitte</a><br />
  </td>
