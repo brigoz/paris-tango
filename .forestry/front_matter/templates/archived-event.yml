@@ -1,4 +1,55 @@
 ---
 label: Archived event
 hide_body: false
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: true
+  label: Title
+  description: Archived event title
+- name: date
+  type: datetime
+  label: Creation date
+  description: ''
+  config:
+    required: false
+    date_format: DD/MM/YYYY
+    time_format: hh:mm
+    display_utc: false
+  hidden: true
+  default: now
+- name: event_date
+  type: datetime
+  label: Start date
+  description: Archived event date
+  config:
+    required: true
+    date_format: DD/MM/YYYY
+    time_format: hh:mm
+    display_utc: false
+- name: description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Description
+- name: location
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Location
+  description: Archived event location and address
+- name: image
+  type: file
+  config:
+    maxSize: 250
+  label: Archived event image
+  description: Provide an informative image to go with an event
