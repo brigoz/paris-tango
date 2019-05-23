@@ -19,9 +19,11 @@ With John Erban & Clarissa Sanchez 16/11/2012
 
 ![](https://res.cloudinary.com/paris-tango/image/upload/v1552995551/Paris_Festival_last_night.jpg)
 
-![](https://res.cloudinary.com/paris-tango/image/upload/v1552995554/Paris_with_Fernando.jpg)
+![](https://res.cloudinary.com/paris-tango/image/upload/v1552995554/Paris_with_Fernando.jpg)Paris with Fernando
 
 ![](https://res.cloudinary.com/paris-tango/image/upload/v1552995555/Paris_with_Jimena_Fernando.jpg)
+
+Paris with Jimena & Fernando
 
 ![](https://res.cloudinary.com/paris-tango/image/upload/v1552523644/P1010075.jpg)
 
