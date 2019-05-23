@@ -195,5 +195,3 @@ Fr Mob: +33 667 534 639 (when in France)
 Chateau Juvenal, Provence
 
 In 2007 this trip won an award from the French ministry of tourism. Article on Tango in Avignon in [La Provence](../related_materials/articles/20071205-La_Provence.pdf), 2007 \[pages [2](../related_materials/articles/ArtEtAcc2007002.pdf) & [3](../related_materials/articles/ArtEtAcc2007003.pdf)\]
-
-This trip won an award from the French ministry of tourism. Article on Tango in Avignon in [La Provence](../related_materials/articles/20071205-La_Provence.pdf), 2007 \[pages [2](../related_materials/articles/ArtEtAcc2007002.pdf) & [3](../related_materials/articles/ArtEtAcc2007003.pdf)\]
