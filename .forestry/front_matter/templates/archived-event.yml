@@ -54,4 +54,5 @@ fields:
   label: Archived event image
   description: Provide an informative image to go with an event
 pages:
+- content/archived-events/amanda-adrian-costa-in-ireland.md
 - content/archived-events/amanda-and-adrian-costa-in-uk.md
