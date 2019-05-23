@@ -56,9 +56,9 @@ For bookings, contact [Brigitte](mailto:brigitte@paris-tango.co.uk)
 <tr>
 <td>Sunday, 10th October</td>
 <td>16.30–18.00<br />
-18\.00-20.30</td>
+18.00-20.30</td>
 <td>venue to be announced</td>
-<td>Workshop: Tango fondamentals, all levels<br />
+<td>Workshop: Tango fundamentals, all levels<br />
 Practica open to all. For booking, contact <a href="mailto:brigitte@paris-tango.co.uk">Brigitte</a></td>
 </tr>
 <tr>
@@ -71,8 +71,7 @@ Practica open to all. For booking, contact <a href="mailto:brigitte@paris-tango.
 <td>Wednesday, 13th October</td>
 <td>19.30–21.00</td>
 <td>The Dome</td>
-<td><br />
-Group lesson, intermediate level</td>
+<td>Group lesson, intermediate level</td>
 </tr>
 <tr>
 <td>Thursday, 14th October</td>
