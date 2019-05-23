@@ -42,4 +42,5 @@ fields:
   label: Event image
   description: Provide an informative image to go with an event
 pages:
+- content/events/alejandro-beron.md
 - content/events/uk-official-tango-championship.md
