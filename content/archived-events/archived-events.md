@@ -8,7 +8,7 @@ location = ""
 title = "Archived Events"
 
 +++
-. 16th November to 3rd December 2017 John Erban in London  
+. **16th November to 3rd December 2017** John Erban in London  
 . 3rd to 13th September 2016 Monica Paz - London & Bristol  
 . 10th to 19th July 2017 John Erban in London  
 . 31st March to 2nd April 2017 The 4th UK Tango Festival & Championship in London  
