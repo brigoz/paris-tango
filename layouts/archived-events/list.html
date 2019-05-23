@@ -20,33 +20,43 @@
                         </span>
 			                  {{ end }}
                         <header class="major">
-                            <h1>{{ .Title }}</h1>
+                            <!-- <h1>{{ .Title }}</h1> -->
+                            <h1>Archived Events</h1>
                         </header>
                         <div class="content">
                             {{ .Content }}
                         </div>
 
                         <ul class="actions">
-                            <li><a href="/archived-events" class="button next">Our Archived Events</a></li>
+                            <li><a href="/events" class="button next">Our Current events</a></li>
                         </ul>
                     </div>
                 </section>
 
                 <section id="two" class="spotlights">
                     {{ range (.Pages.ByParam "event_date").Reverse }}
-                    <section>
-                        <a href="{{ .URL }}" class="image">
+                    <section class="event-listing">
+			                  {{ if .Params.image }}
+                        <a href="{{ .URL }}" class="event-listing__image image">
 							              <img src="{{ .Site.Params.MediaSecureDeliveryURL }}/{{ .Params.image }}" alt="" data-position="center center" />
 						            </a>
-                        <div class="content">
-                            <div class="inner">
-                                <header class="major">
-                                    <h3>{{ .Title }}</h3>
+                        {{ end }}
+                        <div class="event-listing__content content">
+                            <div class="event-listing__inner">
+                                <header class="event-listing__header major">
+                                    <h3 class="event-listing__title">{{ .Title }}</h3>
                                 </header>
-                                <p>{{ .Description }}</p>
-                                <ul class="actions">
+                                {{ if .Params.description }}
+                                <p class="event-listing__description">{{ .Description }}</p>
+                                {{ end }}
+                                {{ if .Params.location }}
+                                <h4 class="event-listing__location">{{ .Params.location }}</h4>
+                                {{ end }}
+                                {{ if .Content }}
+                                <ul class="event-listing__button actions">
                                     <li><a href="{{ .URL }}" class="button next">More information</a></li>
                                 </ul>
+                                {{ end }}
                             </div>
                         </div>
                     </section>

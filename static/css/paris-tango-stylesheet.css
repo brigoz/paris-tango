@@ -432,3 +432,7 @@ ul.pagination li > .page.active:hover {
 .mw9 { max-width: 96rem; }
 /* Max Width String Properties */
 .mw-none { max-width: none; }
+
+.event-listing__description + .event-listing__location {
+    margin-top: -2em;
+}

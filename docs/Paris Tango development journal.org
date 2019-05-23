@@ -122,6 +122,8 @@ presence is going to be kept up to provide /history/ and artistic merit.
 
 ** Preparation of special content types
    :LOGBOOK:
+   CLOCK: [2019-05-23 Thu 17:03]--[2019-05-23 Thu 17:46] =>  0:43
+   CLOCK: [2019-05-23 Thu 15:33]--[2019-05-23 Thu 16:59] =>  1:26
    CLOCK: [2019-03-12 Tue 23:34]--[2019-03-12 Tue 23:51] =>  0:17
    CLOCK: [2019-03-12 Tue 20:15]--[2019-03-12 Tue 21:19] =>  1:04
    CLOCK: [2019-03-12 Tue 19:26]--[2019-03-12 Tue 19:34] =>  0:08
@@ -133,8 +135,23 @@ growing list of tango events. This requires the definition of a specific
 /archetype/ as well as /layouts/ or /views/ for presenting the events as
 individual pages or a listing.
 
+The /past events/ section from the old site is now called the /archived events/
+section. Why? The new, structured, /events/ formatted in full according to new
+formatting rules, will just be pushed down on the list of events, but will
+remain listed on the events page, with the same information as used to advertise
+the upcoming event. 
+
+Based on usage of the old site, Brigitte likes to minimise the amount of
+information presented by past events, and for that reason, I created the
+archived events content type, where the only information necessary is the title
+and event date. Everything else is optional, including the event location or
+venue, the image (if any) and even the description, if Brigitte deems it
+politically more useful not to list the fullness of the event once it's in the
+past.
+
 ** Migration of existing content to new platform
    :LOGBOOK:
+   CLOCK: [2019-05-23 Thu 17:46]
    CLOCK: [2019-03-13 Wed 09:00]--[2019-03-13 Wed 09:30] =>  0:30
    CLOCK: [2019-03-12 Tue 23:59]--[2019-03-13 Wed 00:22] =>  0:23
    CLOCK: [2019-03-11 Mon 20:22]--[2019-03-11 Mon 20:22] =>  0:00
@@ -149,6 +166,9 @@ In this stage, all the content from the legacy site is copied from the existing,
 legacy website to the new Hugo-based one. All pages are recreated, and any
 /custom/ content, events in our case, are modelled and built as /fields/ in the
 site generator.
+
+Using information on the old website, I've migrated a few events over to the
+archived events page, mainly as a proof of concept, a test of functionality.
 
 ** Asset optimisation
    :LOGBOOK:
@@ -166,7 +186,6 @@ then optimised heavily, before uploading to Cloudinary.
 The images are optimised by creating a copy of the containing folder, after
 which all images are opened in macOS Preview, and resized to a maximum of 1920
 pixels width.
-
 
 ** Crafting a new look for the web site
 
@@ -269,7 +288,7 @@ The following are all the DNS entries recorded for paris-tango.co.uk:
 
 ** Implement final corrections
    :LOGBOOK:
-   CLOCK: [2019-04-09 Tue 16:09]
+   CLOCK: [2019-04-09 Tue 16:09]--[2019-04-09 Tue 16:14] =>  0:05
    CLOCK: [2019-04-09 Tue 03:15]--[2019-04-09 Tue 03:46] =>  0:31
    CLOCK: [2019-04-09 Tue 00:00]--[2019-04-09 Tue 00:11] =>  0:11
    CLOCK: [2019-04-08 Mon 23:21]--[2019-04-08 Mon 23:44] =>  0:23
@@ -339,10 +358,10 @@ The following are all the DNS entries recorded for paris-tango.co.uk:
 * Time Log
 
 #+BEGIN: clocktable :maxlevel 3 :scope file
-#+CAPTION: Clock summary at [2019-04-09 Tue 03:46]
+#+CAPTION: Clock summary at [2019-05-23 Thu 17:46]
 | Headline                                    |    Time |      |      |
 |---------------------------------------------+---------+------+------|
-| *Total time*                                | *35:30* |      |      |
+| *Total time*                                | *37:44* |      |      |
 |---------------------------------------------+---------+------+------|
 | Project Summary                             |    1:01 |      |      |
 | Preparation                                 |    7:15 |      |      |
@@ -350,15 +369,15 @@ The following are all the DNS entries recorded for paris-tango.co.uk:
 | \_  Collecting necessary technical...       |         | 1:10 |      |
 | \_  Obtaining all assets                    |         | 2:19 |      |
 | \_  Creation of all necessary service...    |         | 1:46 |      |
-| Building the Site                           |   19:00 |      |      |
+| Building the Site                           |   21:09 |      |      |
 | \_  Preparation of new website repository   |         | 1:26 |      |
-| \_  Preparation of special content types    |         | 1:59 |      |
+| \_  Preparation of special content types    |         | 4:08 |      |
 | \_  Migration of existing content to new... |         | 4:38 |      |
 | \_  Asset optimisation                      |         | 2:25 |      |
 | \_  Crafting a new look for the web site    |         | 8:32 |      |
 | \_    Selecting and installing a theme      |         |      | 2:50 |
 | \_    Customising the base theme            |         |      | 5:42 |
-| Deploying the New Website                   |    8:14 |      |      |
+| Deploying the New Website                   |    8:19 |      |      |
 | \_  Change DNS records                      |         | 1:05 |      |
-| \_  Implement final corrections             |         | 5:30 |      |
+| \_  Implement final corrections             |         | 5:35 |      |
 #+END:

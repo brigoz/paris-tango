@@ -58,6 +58,10 @@ disqusShortname = ""
       name = "Events"
       url = "events"
 
+    [[params.navigation.links]]
+      name = "Archived Events"
+      url = "archived-events"
+
     # [[params.navigation.links]]
     #   name = "Generic Blog"
     #   url = "blogs/ipsum"
