@@ -53,3 +53,5 @@ fields:
     maxSize: 250
   label: Archived event image
   description: Provide an informative image to go with an event
+pages:
+- content/archived-events/amanda-and-adrian-costa-in-uk.md
