@@ -22,7 +22,7 @@ sections:
   path: content
   label: Pages
   create: all
-  match: "*"
+  match: "*,content/archived-events/archived-events.md"
 upload_dir: ''
 public_path: https://res.cloudinary.com/paris-tango/image/upload
 front_matter_path: ''
