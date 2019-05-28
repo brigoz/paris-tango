@@ -433,6 +433,23 @@ ul.pagination li > .page.active:hover {
 /* Max Width String Properties */
 .mw-none { max-width: none; }
 
+/* Style Archived Events section */
+.event-listing--archived-events-unified-list {
+    -moz-flex-direction: unset !important;
+    -webkit-flex-directions: unset !important;
+    -ms-flex-direction: unset !important;
+    flex-direction: unset !important;
+
+}
+
 .event-listing__description + .event-listing__location {
     margin-top: -2em;
+}
+
+.event-listing__content--archived-events-unified-list {
+    -moz-align-items: unset !important;
+    -webkit-align-items: unset !important;
+    -ms-align-items: unset !important;
+    align-items: unset !important;
+    width: 65rem;
 }

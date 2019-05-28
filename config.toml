@@ -216,6 +216,13 @@ If you are a visitor we will inform you where to dance in the UK and in France d
     # city = "City, ST 00000"
     # country = "Country"
 
+  # Section Type Archived events
+  [params.archivedEvents]
+    enable = true
+    title = "Archived Events"
+    buttonText = "Our Current Events"
+    url = "events"
+
   # Footer section
   [params.footer]
     enable = true

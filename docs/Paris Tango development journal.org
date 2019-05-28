@@ -122,6 +122,8 @@ presence is going to be kept up to provide /history/ and artistic merit.
 
 ** Preparation of special content types
    :LOGBOOK:
+   CLOCK: [2019-05-27 Mon 19:39]--[2019-05-27 Mon 20:37] =>  0:58
+   CLOCK: [2019-05-27 Mon 19:35]--[2019-05-27 Mon 19:38] =>  0:03
    CLOCK: [2019-05-23 Thu 17:03]--[2019-05-23 Thu 17:46] =>  0:43
    CLOCK: [2019-05-23 Thu 15:33]--[2019-05-23 Thu 16:59] =>  1:26
    CLOCK: [2019-03-12 Tue 23:34]--[2019-03-12 Tue 23:51] =>  0:17
@@ -149,9 +151,16 @@ venue, the image (if any) and even the description, if Brigitte deems it
 politically more useful not to list the fullness of the event once it's in the
 past.
 
+UPDATE: Following our training session, it became apparent that Brigitte doesn't
+want to enter each past event in a forcibly-structured way, instead she would
+prefer to have a single page to format flexibly and display all past event
+information in a relatively free-form way, but without resorting to much data entry.
+ 
+
 ** Migration of existing content to new platform
    :LOGBOOK:
-   CLOCK: [2019-05-23 Thu 17:46]
+   CLOCK: [2019-05-28 Tue 08:56]
+   CLOCK: [2019-05-23 Thu 17:46]--[2019-05-23 Thu 18:04] =>  0:18
    CLOCK: [2019-03-13 Wed 09:00]--[2019-03-13 Wed 09:30] =>  0:30
    CLOCK: [2019-03-12 Tue 23:59]--[2019-03-13 Wed 00:22] =>  0:23
    CLOCK: [2019-03-11 Mon 20:22]--[2019-03-11 Mon 20:22] =>  0:00
@@ -288,6 +297,7 @@ The following are all the DNS entries recorded for paris-tango.co.uk:
 
 ** Implement final corrections
    :LOGBOOK:
+   CLOCK: [2019-05-23 Thu 20:19]--[2019-05-23 Thu 21:45] =>  1:26
    CLOCK: [2019-04-09 Tue 16:09]--[2019-04-09 Tue 16:14] =>  0:05
    CLOCK: [2019-04-09 Tue 03:15]--[2019-04-09 Tue 03:46] =>  0:31
    CLOCK: [2019-04-09 Tue 00:00]--[2019-04-09 Tue 00:11] =>  0:11
@@ -355,13 +365,25 @@ The following are all the DNS entries recorded for paris-tango.co.uk:
    event is at the top of the page, followed by older ones, to the end, finally
    followed by the past events listing page.
 
+
+* Training
+  :LOGBOOK:
+  CLOCK: [2019-05-23 Thu 20:11]--[2019-05-23 Thu 21:18] =>  1:07
+  CLOCK: [2019-05-23 Thu 18:06]--[2019-05-23 Thu 18:07] =>  0:00
+  :END:
+
+* Technical Documentation
+  :LOGBOOK:
+  CLOCK: [2019-05-23 Thu 18:06]--[2019-05-23 Thu 18:07] =>  0:04
+  :END:
+
 * Time Log
 
 #+BEGIN: clocktable :maxlevel 3 :scope file
-#+CAPTION: Clock summary at [2019-05-23 Thu 17:46]
+#+CAPTION: Clock summary at [2019-05-27 Mon 19:34]
 | Headline                                    |    Time |      |      |
 |---------------------------------------------+---------+------+------|
-| *Total time*                                | *37:44* |      |      |
+| *Total time*                                | *40:37* |      |      |
 |---------------------------------------------+---------+------+------|
 | Project Summary                             |    1:01 |      |      |
 | Preparation                                 |    7:15 |      |      |
@@ -369,15 +391,17 @@ The following are all the DNS entries recorded for paris-tango.co.uk:
 | \_  Collecting necessary technical...       |         | 1:10 |      |
 | \_  Obtaining all assets                    |         | 2:19 |      |
 | \_  Creation of all necessary service...    |         | 1:46 |      |
-| Building the Site                           |   21:09 |      |      |
+| Building the Site                           |   21:27 |      |      |
 | \_  Preparation of new website repository   |         | 1:26 |      |
 | \_  Preparation of special content types    |         | 4:08 |      |
-| \_  Migration of existing content to new... |         | 4:38 |      |
+| \_  Migration of existing content to new... |         | 4:56 |      |
 | \_  Asset optimisation                      |         | 2:25 |      |
 | \_  Crafting a new look for the web site    |         | 8:32 |      |
 | \_    Selecting and installing a theme      |         |      | 2:50 |
 | \_    Customising the base theme            |         |      | 5:42 |
-| Deploying the New Website                   |    8:19 |      |      |
+| Deploying the New Website                   |    9:45 |      |      |
 | \_  Change DNS records                      |         | 1:05 |      |
-| \_  Implement final corrections             |         | 5:35 |      |
+| \_  Implement final corrections             |         | 7:01 |      |
+| Training                                    |    1:08 |      |      |
+| Technical Documentation                     |    0:01 |      |      |
 #+END:
