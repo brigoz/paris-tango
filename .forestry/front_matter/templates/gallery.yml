@@ -17,6 +17,6 @@ fields:
   description: Masthead image for the gallery
 pages:
 - content/galleries/agency.md
+- content/galleries/events-festivals-and-tango-championships.md
 - content/galleries/tango-holidays.md
 - content/galleries/tango-friends.md
-- content/galleries/events-festivals-and-tango-championships.md
