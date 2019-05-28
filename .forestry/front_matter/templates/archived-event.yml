@@ -53,5 +53,3 @@ fields:
     maxSize: 250
   label: Archived event image
   description: Provide an informative image to go with an event
-pages:
-- content/archived-events/fire-flame-ball-5th-anniversary-2011.md
