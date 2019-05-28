@@ -1,3 +1,10 @@
+---
+title: Archived Events
+date: 2019-01-12 14:33:19 +0000
+description: Our past events
+image: ""
+---
+
 **16th November to 3rd December 2017** John Erban in London
 
 **3rd to 13th September 2016** Monica Paz - London & Bristol

@@ -65,11 +65,11 @@
                          {{ end }} -->
 
 				            {{ if .Site.Params.archivedEvents.enable }}
-                    {{ if (fileExists "/content/archived-events/archived-events.md") -}}
+                    {{ if (fileExists "/content/archived-events.md") -}}
                     <section class="event-listing--archived-events-unified-list">
                         <div class="event-listing__content--archived-events-unified-list content">
                             <h2 class="event-listing__section-title">{{ if .Site.Params.archivedEvents.title }}{{ .Site.Params.archivedEvents.title }}{{ else }}Archived Events{{ end }}</h2>
-                            {{ readFile "/content/archived-events/archived-events.md" | markdownify }}
+                            {{ readFile "/content/archived-events.md" | markdownify }}
                         </div>
                     </section>
                     {{- end }}
