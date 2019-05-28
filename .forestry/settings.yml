@@ -23,7 +23,7 @@ sections:
   label: Pages
   create: all
   match: "**/*"
-  exclude: "**/events/**/*"
+  exclude: "**/events/**/*,**/galleries/**/*"
 upload_dir: ''
 public_path: https://res.cloudinary.com/paris-tango/image/upload
 front_matter_path: ''
