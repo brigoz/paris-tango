@@ -5,13 +5,6 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
-  path: content/archived-events
-  label: Archived events
-  create: documents
-  match: "**/*"
-  templates:
-  - archived-event
-- type: directory
   path: content/galleries
   label: Galleries
   create: documents
