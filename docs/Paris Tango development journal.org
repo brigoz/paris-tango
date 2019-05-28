@@ -155,11 +155,23 @@ UPDATE: Following our training session, it became apparent that Brigitte doesn't
 want to enter each past event in a forcibly-structured way, instead she would
 prefer to have a single page to format flexibly and display all past event
 information in a relatively free-form way, but without resorting to much data entry.
- 
+
+I'm removing /Archived events/ from the Forestry sidebar, so it doesn't cause
+Brigitte confusion in the future. For the record, and to be able to resurrect it
+should it be desired in the future, I document the Forestry sidebar settings
+here.
+
+- Label :: Archived events
+- Content directory :: =content/archived-events=
+- Importing content, File match :: =**/*=
+- Importing content, File exclude :: empty
+- Creating content, Content types :: Documents
+- Creating content, New file extension :: empty
+- Available templates :: Archived event
 
 ** Migration of existing content to new platform
    :LOGBOOK:
-   CLOCK: [2019-05-28 Tue 08:56]
+   CLOCK: [2019-05-28 Tue 08:56]--[2019-05-28 Tue 09:49] =>  0:53
    CLOCK: [2019-05-23 Thu 17:46]--[2019-05-23 Thu 18:04] =>  0:18
    CLOCK: [2019-03-13 Wed 09:00]--[2019-03-13 Wed 09:30] =>  0:30
    CLOCK: [2019-03-12 Tue 23:59]--[2019-03-13 Wed 00:22] =>  0:23
@@ -200,6 +212,7 @@ pixels width.
 
 *** Selecting and installing a theme
    :LOGBOOK:
+   CLOCK: [2019-05-28 Tue 10:26]--[2019-05-28 Tue 10:27] =>  0:01
    CLOCK: [2019-02-11 Mon 13:03]--[2019-02-11 Mon 13:20] =>  0:17
    CLOCK: [2019-02-11 Mon 11:59]--[2019-02-11 Mon 12:47] =>  0:48
    CLOCK: [2019-01-12 Sat 17:00]--[2019-01-12 Sat 18:45] =>  1:45
@@ -216,6 +229,7 @@ use.
 
 *** Customising the base theme
     :LOGBOOK:
+    CLOCK: [2019-05-28 Tue 10:27]
     CLOCK: [2019-03-19 Tue 01:36]--[2019-03-19 Tue 01:45] =>  0:09
     CLOCK: [2019-03-13 Wed 02:48]--[2019-03-13 Wed 03:41] =>  0:53
     CLOCK: [2019-03-13 Wed 01:48]--[2019-03-13 Wed 02:30] =>  0:42
@@ -380,10 +394,10 @@ The following are all the DNS entries recorded for paris-tango.co.uk:
 * Time Log
 
 #+BEGIN: clocktable :maxlevel 3 :scope file
-#+CAPTION: Clock summary at [2019-05-27 Mon 19:34]
+#+CAPTION: Clock summary at [2019-05-28 Tue 10:20]
 | Headline                                    |    Time |      |      |
 |---------------------------------------------+---------+------+------|
-| *Total time*                                | *40:37* |      |      |
+| *Total time*                                | *42:31* |      |      |
 |---------------------------------------------+---------+------+------|
 | Project Summary                             |    1:01 |      |      |
 | Preparation                                 |    7:15 |      |      |
@@ -391,10 +405,10 @@ The following are all the DNS entries recorded for paris-tango.co.uk:
 | \_  Collecting necessary technical...       |         | 1:10 |      |
 | \_  Obtaining all assets                    |         | 2:19 |      |
 | \_  Creation of all necessary service...    |         | 1:46 |      |
-| Building the Site                           |   21:27 |      |      |
+| Building the Site                           |   23:21 |      |      |
 | \_  Preparation of new website repository   |         | 1:26 |      |
-| \_  Preparation of special content types    |         | 4:08 |      |
-| \_  Migration of existing content to new... |         | 4:56 |      |
+| \_  Preparation of special content types    |         | 5:09 |      |
+| \_  Migration of existing content to new... |         | 5:49 |      |
 | \_  Asset optimisation                      |         | 2:25 |      |
 | \_  Crafting a new look for the web site    |         | 8:32 |      |
 | \_    Selecting and installing a theme      |         |      | 2:50 |

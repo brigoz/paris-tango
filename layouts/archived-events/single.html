@@ -9,29 +9,40 @@
 
             {{ partial "nav.html" . }}
 
-        {{ "<!-- Main -->" | safeHTML }}
-            <div id="main" class="event-main alt">
+            <div id="main">
 
-                <!-- One -->
-                    <section id="one">
-                        <div class="inner">
-                            <header class="major">
-                                <h1>{{ .Title}}</h1>
-                            </header>
-                            {{ if .Params.image }}
-                                <span class="image main"><img src="{{ .Site.Params.MediaSecureDeliveryURL }}/{{ .Params.image }}" alt="" /></span>
-                            {{ end }}
+                <section id="banner" class="style2">
+                    <div class="inner">
+			                  {{ if .Params.image }}
+                        <span class="image">
+                            <img src="{{ .Site.Params.MediaSecureDeliveryURL }}/{{ .Params.image }}" alt="" />
+                        </span>
+			                  {{ end }}
+                        <header class="major">
+                            <!-- <h1>{{ .Title }}</h1> -->
+                            <h1>Archived Events</h1>
+                        </header>
+                        <div class="content">
                             {{ .Content }}
                         </div>
-                    </section>
-            {{ "<!-- Disqus Inject -->" | safeHTML }}
-                {{ if .Site.DisqusShortname }}
-                  {{ partial "disqus.html" . }}
-                {{ end }}
 
-                    <div class="main--clear"></div>
-            </div>
-            
+                        <ul class="actions">
+                            <li><a href="/events" class="button next">Our Current events</a></li>
+                        </ul>
+                    </div>
+                </section>
+
+ 				        {{ if .Site.Params.archivedEvents.enable }}
+                {{ if (fileExists "/content/archived-events.md") -}}
+                <section class="event-listing--archived-events-unified-list">
+                    <div class="event-listing__content--archived-events-unified-list content">
+                        <h2 class="event-listing__section-title">{{ if .Site.Params.archivedEvents.title }}{{ .Site.Params.archivedEvents.title }}{{ else }}Archived Events{{ end }}</h2>
+                        {{ readFile "/content/archived-events.md" | markdownify }}
+                    </div>
+                </section>
+                {{- end }}
+				        {{ end }}
+
         {{ "<!-- Footer -->" | safeHTML}}
             {{ if .Site.Params.footer.enable }}
                 {{ partial "footer.html" . }}
