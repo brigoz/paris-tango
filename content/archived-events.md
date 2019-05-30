@@ -1,10 +1,10 @@
 ---
 title: Archived Events
-date: 2019-01-12 14:33:19 +0000
+date: 2019-01-12T14:33:19.000+00:00
 description: Our past events
-image: ""
----
+image: ''
 
+---
 **16th November to 3rd December 2017** John Erban in London
 
 **3rd to 13th September 2016** Monica Paz - London & Bristol
@@ -45,9 +45,9 @@ Cambridge Milonga Pasional **5th and 6th July 2014** [info@tangueando.net](mailt
 
 Cheshire **1st May**: Tango Cheshire [tangocheshire@yahoo.com](mailto:tangocheshire@yahoo.com)
 
-**9th to 24th åpril 2014** Veronica Vazquez & Alejandro Beron In London and UK
+**9th to 24th April 2014** Veronica Vazquez & Alejandro Beron In London and UK
 
-Bournemouth **9th to 13th April 2014**: TangoAlchemy@Avon Tyrrell 
+Bournemouth **9th to 13th April 2014**: TangoAlchemy@Avon Tyrrell
 
 London **15th to 24th April 2014**
 
@@ -128,7 +128,7 @@ Live music with Carlos Quilici & Los Tauras. DJ Ewa Zbrzeska
 
 This top Argentinian tango couple renown for their milonga will perform and teach in London for the 1st time giving classes, worshops and private tuition
 
-**Fire & Flame Ball - London** [**30th January 2010**](http://www.paris-tango.co.uk/events/fire_and_flame_ball-201001.html)
+**Fire & Flame Ball - London 30th January 2010**
 
 At the Carisbrooke Hall, Marble Arch, London
 Workshops and performance by Amanda & Adrian Costa
@@ -222,4 +222,6 @@ Information and details of events, workshops and private lessons available from 
 
 **"Tango with Brigitte"** at Chateau Juvenal, Provence
 
-In 2007 this trip won an award from the French ministry of tourism. Article on Tango in Avignon in [La Provence](../related_materials/articles/20071205-La_Provence.pdf), 2007 \[pages [2](../related_materials/articles/ArtEtAcc2007002.pdf) & [3](../related_materials/articles/ArtEtAcc2007003.pdf)\]
+In 2007 this trip won an award from the French ministry of tourism. Article on Tango in Avignon in [La Provence](https://res.cloudinary.com/paris-tango/image/upload/v1559148709/20071205-La_Provence.pdf "La Provence"), 2007 \[pages [2](https://res.cloudinary.com/paris-tango/image/upload/v1559148708/ArtEtAcc2007002.pdf "ArtEtAcc2007002.pdf") & [3](https://res.cloudinary.com/paris-tango/image/upload/v1559148708/ArtEtAcc2007003.pdf "ArtEtAcc2007003.pdf")\]
+
+ 
